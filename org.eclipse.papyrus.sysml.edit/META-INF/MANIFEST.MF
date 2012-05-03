@@ -1,0 +1,397 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.sysml.edit;singleton:=true
+Require-Bundle: org.eclipse.papyrus.sysml;bundle-version="0.9.0";visib
+ ility:=reexport,org.eclipse.core.runtime;bundle-version="3.6.0",org.e
+ clipse.emf.edit;bundle-version="2.8.0",org.eclipse.uml2.uml.edit;bund
+ le-version="4.0.0"
+Bundle-Activator: org.eclipse.papyrus.sysml.provider.SysmlEditPlugin$I
+ mplementation
+Export-Package: org.eclipse.papyrus.sysml.activities.provider,org.ecli
+ pse.papyrus.sysml.allocations.provider,org.eclipse.papyrus.sysml.bloc
+ ks.provider,org.eclipse.papyrus.sysml.constraints.provider,org.eclips
+ e.papyrus.sysml.edit.provider,org.eclipse.papyrus.sysml.edit.umllayer
+ ,org.eclipse.papyrus.sysml.modelelements.provider,org.eclipse.papyrus
+ .sysml.portandflows.provider,org.eclipse.papyrus.sysml.provider,org.e
+ clipse.papyrus.sysml.registry,org.eclipse.papyrus.sysml.requirements.
+ provider
+Bundle-Version: 0.9.0.v201203211542
+Ant-Version: Apache Ant 1.8.2
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/sysml/modelelements/provider/ModelelementsIt
+ emProviderAdapterFactory.class
+SHA1-Digest: uyZZp8YH7hbVPiSgPkreHx1CctU=
+
+Name: icons/full/obj16/FlowSpecification.gif
+SHA1-Digest: pV9ezR0SF/R55AQRJZDg4HmVrkk=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/DimensionItemProvider.
+ class
+SHA1-Digest: o1zwjFfHr9L3gIGiW7ypGcg6o60=
+
+Name: icons/full/obj16/Allocate.gif
+SHA1-Digest: W91ply/2wuUeqvZOwUawmGbBCJs=
+
+Name: org/eclipse/papyrus/sysml/activities/provider/DiscreteItemProvid
+ er.class
+SHA1-Digest: n4lXdPzFhHNIcIaEDN0K06ET544=
+
+Name: org/eclipse/papyrus/sysml/edit/provider/IComposableAdapterFactor
+ y.class
+SHA1-Digest: ajIBMi1C2xK7dt8JlZTqnREE8fU=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/BlocksItemProviderAdap
+ terFactory.class
+SHA1-Digest: YzLoxem8s4C5aCGyMmv0ugIrvjk=
+
+Name: org/eclipse/papyrus/sysml/modelelements/provider/ConformItemProv
+ ider.class
+SHA1-Digest: 5fallUPrwrKRLLGiypAyaUqix18=
+
+Name: custom-src/org/eclipse/papyrus/sysml/edit/provider/IRootAdapterF
+ actory.java
+SHA1-Digest: AkYIB+gl2o9SP+HTcpyonWhNar8=
+
+Name: org/eclipse/papyrus/sysml/registry/SysmlRegistryAdapterFactoryRe
+ gistry$SingletonHolder.class
+SHA1-Digest: ynVnZktJ8oeIBGY/punpiihZMag=
+
+Name: org/eclipse/papyrus/sysml/requirements/provider/TestCaseItemProv
+ ider.class
+SHA1-Digest: 1Iid1CLjgchLrnuQUpld0vtqtSc=
+
+Name: icons/full/obj16/Overwrite.gif
+SHA1-Digest: Sk87peqtjGOl7ixDme+ldSvxyvY=
+
+Name: org/eclipse/papyrus/sysml/portandflows/provider/PortandflowsItem
+ ProviderAdapterFactory.class
+SHA1-Digest: w7KtbIlSIn5VPH8FYSYvOybf3DU=
+
+Name: icons/full/obj16/Block.gif
+SHA1-Digest: 57IubKTuAe++I2ZRhCOcZDnKzoY=
+
+Name: org/eclipse/papyrus/sysml/edit/provider/IRootAdapterFactory.clas
+ s
+SHA1-Digest: Y1X7ACtq82/kttcdFf5BTI+5Dn0=
+
+Name: org/eclipse/papyrus/sysml/modelelements/provider/ProblemItemProv
+ ider.class
+SHA1-Digest: kRhxpYRlaT7PeNn6xEBE7VQv448=
+
+Name: icons/full/obj16/DistributedProperty.gif
+SHA1-Digest: rw4VY33aZuUltGDueBzQiVgy5M0=
+
+Name: icons/full/obj16/Rate.gif
+SHA1-Digest: 59H3ODrYoaDre6eQfrM5DakTSmk=
+
+Name: icons/full/obj16/NoBuffer.gif
+SHA1-Digest: anDrqczTKuP24CH3saEL4lXNjT4=
+
+Name: icons/full/obj16/TestCase.gif
+SHA1-Digest: 6XCMRZWvUMPR9Q3mXYmGcI98e5M=
+
+Name: custom-src/org/eclipse/papyrus/sysml/edit/provider/IVisibilityOv
+ erlayImage.java
+SHA1-Digest: gB2byU+6/HwkQma+s4shP575SQw=
+
+Name: icons/full/obj16/ControlOperator.gif
+SHA1-Digest: zGsVzige34RisrKC51p5TwyPbZU=
+
+Name: icons/full/obj16/NestedConnectorEnd.gif
+SHA1-Digest: BJCtscbUk19s32t6I6uea8UxX3Q=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/BindingConnectorItemPr
+ ovider.class
+SHA1-Digest: A7ge1YSN8bRCVKJ1PgMXCs/l2t8=
+
+Name: icons/full/obj16/RequirementRelated.gif
+SHA1-Digest: VaUNsc7JdwfTbeX9TR3QsutFMGc=
+
+Name: icons/full/obj16/ConstraintBlock.gif
+SHA1-Digest: W+T/TcuerW5EBGNvnJPAdZ+/lKc=
+
+Name: icons/full/obj16/Copy.gif
+SHA1-Digest: ttlGdCwTxNnf6kADk81KC/MZ5e8=
+
+Name: icons/full/obj16/Probability.gif
+SHA1-Digest: Sk87peqtjGOl7ixDme+ldSvxyvY=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/ParticipantPropertyIte
+ mProvider.class
+SHA1-Digest: IWPxcuCQXsLXaHwdTaUrBR5H9aM=
+
+Name: org/eclipse/papyrus/sysml/activities/provider/ProbabilityItemPro
+ vider.class
+SHA1-Digest: Yvf+pjLum6O5nMD+uKGZFVZQZ6I=
+
+Name: org/eclipse/papyrus/sysml/requirements/provider/DeriveReqtItemPr
+ ovider.class
+SHA1-Digest: 6GXrFAW75QCM2KX72v7UfPnVMSE=
+
+Name: icons/full/obj16/ConnectorProperty.gif
+SHA1-Digest: 0gvIhMSrhltUsML916LcDVM3JLc=
+
+Name: icons/full/obj16/Requirement.gif
+SHA1-Digest: W/ILiVdJuqS6BNxJLszTu8bnQw0=
+
+Name: org/eclipse/papyrus/sysml/portandflows/provider/ItemFlowItemProv
+ ider.class
+SHA1-Digest: LXSZXkb7rHDa5XXcKD/B9cIQoCQ=
+
+Name: icons/full/obj16/Allocated.gif
+SHA1-Digest: G6zho+wW7esPg77zqC/aH06dFy8=
+
+Name: icons/full/obj16/Continuous.gif
+SHA1-Digest: HkztcHenka8VEe7RvgSXDldhBSA=
+
+Name: org/eclipse/papyrus/sysml/provider/SysmlEditPlugin$Implementatio
+ n.class
+SHA1-Digest: yu8MWRRjLyMLtDsv+8fFNxn7W+g=
+
+Name: org/eclipse/papyrus/sysml/requirements/provider/RequirementsItem
+ ProviderAdapterFactory.class
+SHA1-Digest: /zk6fOWrFuAmy70gKnMAzNWMJHg=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: org/eclipse/papyrus/sysml/activities/provider/OverwriteItemProvi
+ der.class
+SHA1-Digest: PIr3trLgjhEfBf4wumhuhiGyHug=
+
+Name: org/eclipse/papyrus/sysml/edit/provider/SysMLItemProviderAdapter
+ .class
+SHA1-Digest: RD3gDQrMyuJD9xJXUUPoLn1fkqA=
+
+Name: org/eclipse/papyrus/sysml/requirements/provider/VerifyItemProvid
+ er.class
+SHA1-Digest: 1bFern2Ff30DsiJVF++JfKYaHmk=
+
+Name: org/eclipse/papyrus/sysml/constraints/provider/ConstraintPropert
+ yItemProvider.class
+SHA1-Digest: nkrJn10aqPJZebOkOqnXkEWuK3U=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/UnitItemProvider.class
+SHA1-Digest: WoGoh6a1UPbG8JZDL2VMAkjkPV0=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/BlockItemProvider.clas
+ s
+SHA1-Digest: poRshl3GTZ4FSeo41BMoAaSrnvA=
+
+Name: icons/full/obj16/View.gif
+SHA1-Digest: gaKW8pGIVnYTxW03pSmybmFlvL4=
+
+Name: org/eclipse/papyrus/sysml/modelelements/provider/ViewPointItemPr
+ ovider.class
+SHA1-Digest: 8IDhkx57OlxgS/cYsWT4QwFvyUU=
+
+Name: org/eclipse/papyrus/sysml/activities/provider/NoBufferItemProvid
+ er.class
+SHA1-Digest: HxBG+IKsqB0Obt+dwWE3IZaHKV0=
+
+Name: icons/full/obj16/Satisfy.gif
+SHA1-Digest: tP2HdJBgvBM5j9xUddeAtn7+dZk=
+
+Name: org/eclipse/papyrus/sysml/allocations/provider/AllocateItemProvi
+ der.class
+SHA1-Digest: SkAm7lUmmAaR/UmwasYxVpZ3glY=
+
+Name: icons/full/obj16/Dimension.gif
+SHA1-Digest: 2z/ssMO+QnnDLUCNhwuxFPl5S3A=
+
+Name: org/eclipse/papyrus/sysml/allocations/provider/AllocatedItemProv
+ ider.class
+SHA1-Digest: 3UUvx3igKDtfNX7kFzIW2wEfMmg=
+
+Name: icons/full/obj16/ViewPoint.gif
+SHA1-Digest: fW4TBvbDjKPDdoOFPfAjY/JhLnU=
+
+Name: org/eclipse/papyrus/sysml/modelelements/provider/RationaleItemPr
+ ovider.class
+SHA1-Digest: hiairAjAEWeiDpQ+4L8foAW8gU0=
+
+Name: org/eclipse/papyrus/sysml/registry/SysmlRegistryAdapterFactoryRe
+ gistry.class
+SHA1-Digest: dfylcR1ZN3iJlWCsQ4Hu4whDSNI=
+
+Name: org/eclipse/papyrus/sysml/edit/provider/IVisibilityOverlayImage.
+ class
+SHA1-Digest: w63w7Zv/SLOy+0XdbbxnyyPwTpU=
+
+Name: org/eclipse/papyrus/sysml/constraints/provider/ConstraintsItemPr
+ oviderAdapterFactory.class
+SHA1-Digest: TPMPp71NbAO9bmYORGaBj6wJm3M=
+
+Name: custom-src/org/eclipse/papyrus/sysml/edit/provider/IComposableAd
+ apterFactory.java
+SHA1-Digest: MDQYqQWl0QauX7nv7cbSwVvvYFY=
+
+Name: icons/full/obj16/Rationale.gif
+SHA1-Digest: pPLQbqJcrNkVh80Fz8n5In3iAOA=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/NestedConnectorEndItem
+ Provider.class
+SHA1-Digest: L76257m/IcL7Opwbt18kYjx3+vo=
+
+Name: icons/full/obj16/BindingConnector.gif
+SHA1-Digest: F2xKYRa+HZ5CdKmh1Jda4OFSiG0=
+
+Name: icons/full/obj16/Optionnal.gif
+SHA1-Digest: ExDwgmzoyWIpYPfyaPhwa/4HL9E=
+
+Name: org/eclipse/papyrus/sysml/portandflows/provider/FlowPropertyItem
+ Provider.class
+SHA1-Digest: 3vOGfEGAiPwmEkhOqYJ8m0EPB5s=
+
+Name: org/eclipse/papyrus/sysml/requirements/provider/RequirementItemP
+ rovider.class
+SHA1-Digest: Oihr2x6MkG0Yd6uQny/zODXpBv0=
+
+Name: icons/full/obj16/FlowPort.gif
+SHA1-Digest: C0j5vPINkW0Oz+QqARYEhbD5Wxc=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/sysml/requirements/provider/RequirementRelat
+ edItemProvider.class
+SHA1-Digest: DVGq1M7VqqohCt7g/DhMJ2e7wic=
+
+Name: icons/full/obj16/ConstraintProperty.gif
+SHA1-Digest: ov+fxmmYLFn6bLBWggMkparDG+I=
+
+Name: org/eclipse/papyrus/sysml/allocations/provider/AllocationsItemPr
+ oviderAdapterFactory.class
+SHA1-Digest: NBhaOkwQh2j9gtz/bS07KuN7K48=
+
+Name: icons/full/obj16/DeriveReqt.gif
+SHA1-Digest: yfsxTwENt4rUVRjKCXejCW99djw=
+
+Name: org/eclipse/papyrus/sysml/modelelements/provider/ViewItemProvide
+ r.class
+SHA1-Digest: U34tdR590DT2LaiOa1XY5e2pZnw=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/PropertySpecificTypeIt
+ emProvider.class
+SHA1-Digest: Xj75ruzoRq1ZDLHFlY7TGkK1avM=
+
+Name: icons/full/obj16/Optional.gif
+SHA1-Digest: ExDwgmzoyWIpYPfyaPhwa/4HL9E=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/ValueTypeItemProvider.
+ class
+SHA1-Digest: 2656MVbmKgiU0dPjrnvtai6lhNk=
+
+Name: icons/full/obj16/ItemFlow.gif
+SHA1-Digest: i5NSNsyVwAc8RjMur0qiM9IDAls=
+
+Name: org/eclipse/papyrus/sysml/portandflows/provider/FlowSpecificatio
+ nItemProvider.class
+SHA1-Digest: nJZHXZrmSuZ6ifw5Sf5nTPFOEzA=
+
+Name: org/eclipse/papyrus/sysml/edit/umllayer/SysLMOverUMLItemProvider
+ AdapterFactory.class
+SHA1-Digest: RCwXWyewheTf+Fuq/D3/CBjwmCk=
+
+Name: icons/full/obj16/Problem.gif
+SHA1-Digest: X3wqbJemxMtrx+U5dWfcNo7xo8s=
+
+Name: org/eclipse/papyrus/sysml/activities/provider/RateItemProvider.c
+ lass
+SHA1-Digest: zpXUXplNTGPfkai3Smisjo7F2LA=
+
+Name: org/eclipse/papyrus/sysml/activities/provider/OptionalItemProvid
+ er.class
+SHA1-Digest: 0ThwidkEZ5+WkpdLEIujsCIF6VY=
+
+Name: icons/full/obj16/ParticipantProperty.gif
+SHA1-Digest: zQtjXniQvLE/hL1niFuMWxxoe0o=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/DistributedPropertyIte
+ mProvider.class
+SHA1-Digest: 27bcO869MvUBPl54j3lxFTl6DPM=
+
+Name: custom-src/org/eclipse/papyrus/sysml/edit/provider/SysMLItemProv
+ iderAdapter.java
+SHA1-Digest: EPJ19hD2yHvL2ZQb2XYqkrJbdaE=
+
+Name: org/eclipse/papyrus/sysml/requirements/provider/SatisfyItemProvi
+ der.class
+SHA1-Digest: FGpnTzLq4iQKr78LnFog1G+1KMI=
+
+Name: org/eclipse/papyrus/sysml/activities/provider/ControlOperatorIte
+ mProvider.class
+SHA1-Digest: GwPqyRY5+EUBjEEPmRcSOYTczLo=
+
+Name: org/eclipse/papyrus/sysml/portandflows/provider/FlowPortItemProv
+ ider.class
+SHA1-Digest: QzPFGlqNuP28zy/FQJ5d2dTsYbk=
+
+Name: icons/full/obj16/Verify.gif
+SHA1-Digest: KnJiAm0WK/reedksCO+bJUqLkkQ=
+
+Name: icons/full/obj16/Discrete.gif
+SHA1-Digest: k6QiLCZYrVmMJ6A2ZM7y663F7w0=
+
+Name: plugin.properties
+SHA1-Digest: FZJxnyT0XMAAsT589umNNl2ZnQ0=
+
+Name: icons/full/obj16/PropertySpecificType.gif
+SHA1-Digest: ExDwgmzoyWIpYPfyaPhwa/4HL9E=
+
+Name: icons/full/obj16/Unit.gif
+SHA1-Digest: sFnR2rsso0MozttzSJFrSv4k278=
+
+Name: org/eclipse/papyrus/sysml/allocations/provider/AllocateActivityP
+ artitionItemProvider.class
+SHA1-Digest: jkO4NduOqH91/OBpQAylK2hYM0M=
+
+Name: plugin.xml
+SHA1-Digest: bukc4rSzwpNDch23VpSfTaIIaP4=
+
+Name: icons/full/obj16/Conform.gif
+SHA1-Digest: ec2NIFsTojTF2p4jKCsAXBI/16E=
+
+Name: org/eclipse/papyrus/sysml/activities/provider/ActivitiesItemProv
+ iderAdapterFactory.class
+SHA1-Digest: FJBoGdYfy/YC8UxbCO50ItyDw1U=
+
+Name: icons/full/obj16/ValueType.gif
+SHA1-Digest: PuqUS3Pv9X89EXQSXUpONUrNOtM=
+
+Name: org/eclipse/papyrus/sysml/provider/SysmlEditPlugin.class
+SHA1-Digest: GOxyI6rkkFRxdQtaRZgWHGVwB/Y=
+
+Name: org/eclipse/papyrus/sysml/constraints/provider/ConstraintBlockIt
+ emProvider.class
+SHA1-Digest: HXy9v+WHvC10z5WKm2OAisArVa0=
+
+Name: org/eclipse/papyrus/sysml/activities/provider/ContinuousItemProv
+ ider.class
+SHA1-Digest: ktjuQEh4JPU4Jr0Lp655Cf5vRJo=
+
+Name: org/eclipse/papyrus/sysml/blocks/provider/ConnectorPropertyItemP
+ rovider.class
+SHA1-Digest: qfHVwJPnj8BeQP+ddRNiJzwLJy4=
+
+Name: org/eclipse/papyrus/sysml/requirements/provider/CopyItemProvider
+ .class
+SHA1-Digest: ywmjXLY30gnZhmD4M0++hfJbtmA=
+
+Name: icons/full/obj16/AllocateActivityPartition.gif
+SHA1-Digest: +Ntvcq4997BNYPYLZR/UjlAixTo=
+
+Name: icons/full/obj16/FlowProperty.gif
+SHA1-Digest: ChZy+Snzcj/01vOeUxgLRkXaJfQ=
+
+Name: custom-src/org/eclipse/papyrus/sysml/edit/umllayer/SysLMOverUMLI
+ temProviderAdapterFactory.java
+SHA1-Digest: tV87j2/PERoDik/OgHqx9pgjZjg=
+

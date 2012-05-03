@@ -1,0 +1,486 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.sysml.diagram.internalblock;s
+ ingleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.pa
+ pyrus.sysml;bundle-version="0.9.0",org.eclipse.papyrus.uml.diagram.co
+ mmon;bundle-version="0.9.0",org.eclipse.papyrus.infra.gmfdiag.common;
+ bundle-version="0.9.0",org.eclipse.emf.common.ui;bundle-version="2.5.
+ 0",org.eclipse.gmf.runtime.diagram.ui.resources.editor;bundle-version
+ ="1.2.0",org.eclipse.papyrus.uml.diagram.composite;bundle-version="0.
+ 9.0",org.eclipse.gmf.runtime.diagram.ui.providers;bundle-version="1.3
+ .0",org.eclipse.papyrus.infra.gmfdiag.preferences;bundle-version="0.9
+ .0",org.eclipse.core.expressions,org.eclipse.papyrus.sysml.diagram.co
+ mmon;bundle-version="0.9.0",org.eclipse.papyrus.sysml.service.types;b
+ undle-version="0.9.0",org.eclipse.papyrus.uml.service.types;bundle-ve
+ rsion="0.9.0",org.eclipse.papyrus.infra.widgets;bundle-version="0.9.0
+ ",org.eclipse.gmf.runtime.diagram.core;bundle-version="1.4.1",org.ecl
+ ipse.gmf.runtime.diagram.ui;bundle-version="1.5.0",org.eclipse.papyru
+ s.uml.tools;bundle-version="0.9.0"
+Bundle-Activator: org.eclipse.papyrus.sysml.diagram.internalblock.Acti
+ vator
+Bundle-Version: 0.9.0.v201203211542
+Export-Package: org.eclipse.papyrus.sysml.diagram.internalblock,org.ec
+ lipse.papyrus.sysml.diagram.internalblock.compatibility,org.eclipse.p
+ apyrus.sysml.diagram.internalblock.dnd.helper,org.eclipse.papyrus.sys
+ ml.diagram.internalblock.edit.part,org.eclipse.papyrus.sysml.diagram.
+ internalblock.edit.policy,org.eclipse.papyrus.sysml.diagram.internalb
+ lock.factory,org.eclipse.papyrus.sysml.diagram.internalblock.handler,
+ org.eclipse.papyrus.sysml.diagram.internalblock.helper.advice,org.ecl
+ ipse.papyrus.sysml.diagram.internalblock.messages,org.eclipse.papyrus
+ .sysml.diagram.internalblock.part,org.eclipse.papyrus.sysml.diagram.i
+ nternalblock.preferences,org.eclipse.papyrus.sysml.diagram.internalbl
+ ock.provider,org.eclipse.papyrus.sysml.diagram.internalblock.ui,org.e
+ clipse.papyrus.sysml.diagram.internalblock.utils
+Ant-Version: Apache Ant 1.8.2
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cust
+ omNestedBlockPropertyCompositePreferencePage.class
+SHA1-Digest: Kiyv2NAUaZIL9UOLERyH5+Grn68=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/handler/ManagePr
+ ovidedInterfacesHandler.class
+SHA1-Digest: v4xUaljrMj8o/5VFg4oNL5Ahky8=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog$CreateElementLabelProvider.class
+SHA1-Digest: yIM98ypArhfnHcVD/FrFi0aVnoQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Port
+ AsBorderItemPreferencePage.class
+SHA1-Digest: XMosDHHykfcDAXcgt5z6Ad8lkvs=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/part/Intern
+ alBlockDiagramEditPart.class
+SHA1-Digest: 3HT4bFO6YOyn8FGthNwjYsTZpes=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/utils/BlockDropH
+ elper.class
+SHA1-Digest: ZTcnQwBGPbRT5IgdcCIs3qiszyU=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/InternalBlockDia
+ gramCreateCommand.class
+SHA1-Digest: MwlFLbIWPbyaTG2uUMy/Ii5pZdA=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/part/InternalBlo
+ ckDiagramEditor.class
+SHA1-Digest: BCVBtMJOhUYdiLLp0l2utiIMOX4=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/Interna
+ lBlockDiagramEditPartProvider.class
+SHA1-Digest: x8ZOEZhqz7LRRloJG+TH8bzaCv4=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/utils/FixPortsLo
+ cationOnOpening$FixLocationCommand.class
+SHA1-Digest: kAREm3FD+HZ3+twJ4v46eiDueck=
+
+Name: icons/obj16/Diagram_InternalBlock.gif
+SHA1-Digest: X/o1u9N5OyK8khujR9X/LrsQAac=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/Inherit
+ edCompositeDiagramViewProvider.class
+SHA1-Digest: EYucOAOp2GsDrAoXrcCRzAWvOfk=
+
+Name: messages.properties
+SHA1-Digest: Pp4pW48mmEO8W5rLHNHIZN/w2PQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/Interna
+ lBlockDiagramViewProvider.class
+SHA1-Digest: 6UYUF2M6VdLlWn35csD5HEUzn6o=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Inte
+ rnalBlockDiagramGeneralPreferencePage.class
+SHA1-Digest: Utcl4gFQ+H+p18I9va0EcZIc3uQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/CustomE
+ ditPartProvider.class
+SHA1-Digest: jks1ohAyQAsgOk1r//7bNNSXhMs=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Cust
+ omBlockPropertyStructureCompartmentEditPartDropEditPolicy.class
+SHA1-Digest: iQJd8MJKaRE7Y2M/QMsYyBPKTQM=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog$CreateButtonListener.class
+SHA1-Digest: qDKcQlIpH0DOzXQnaEYkBFETA5U=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Port
+ AsBorderItemPreferencePage$AppearenceSelectionListener.class
+SHA1-Digest: KVJWHwccxy4AxaMvAhs5lKbPPeI=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog$ParentInterfaceValidator.class
+SHA1-Digest: 2eEoY+AHLdbZdBd6nPN46NyIBpw=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/helper/advice/Pr
+ opertyHelperAdvice.class
+SHA1-Digest: 57UZKxKLIpVIDZcemjfKDzKJVsY=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/CustomV
+ iewProvider.class
+SHA1-Digest: 9p4AgNEjHS6hYL4Gu/SrFFU+1Xs=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/utils/FixPortsLo
+ cationOnOpening.class
+SHA1-Digest: SOVN08kzJBhlZVMpu2GZdWRZrqU=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cust
+ omBlockPropertyCompositePreferencePage.class
+SHA1-Digest: /Xy1FfMS3QBIQv2H03d5w9yamrA=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/messages/Message
+ s.class
+SHA1-Digest: BxELznuWODG1yFaz06YTdfUntaY=
+
+Name: palettes/internalblock.palette.xml
+SHA1-Digest: dFYOSoQ938g6fD78kKsvOn4R2ww=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cons
+ traintConstrainedElementPreferencePage.class
+SHA1-Digest: SRNhKshzI+xFCTIQJvFzTNqC82Y=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Cust
+ omDefaultSemanticEditPolicy.class
+SHA1-Digest: rP5Q5HD6m8ETHSyTlarI9D3qgfk=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/factory/DiagramP
+ aletteFactory.class
+SHA1-Digest: xtMawD7/GdKSMZYOHaTE2rYdQEM=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cust
+ omPreferenceInitializer.class
+SHA1-Digest: CZ3AgEA539DUYdFYW53KNHIINg0=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Depe
+ ndencyPreferencePage.class
+SHA1-Digest: kqOfNtuCJ4AHMuzuuGh6kOpKmTc=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/utils/PartDropHe
+ lper.class
+SHA1-Digest: RpTRx0mZsUY1yRe60sLARnCJBK8=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog$CreateUsageCommand.class
+SHA1-Digest: MGw+kHLL2sK3z+1Cl2TYU3DRmjA=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Stru
+ ctureClassifierDropEditPolicy.class
+SHA1-Digest: T7bhqf4fw/3xu7Ihfg5k59pQXy4=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cust
+ omBlockPropertyCompositePreferencePage$AppearenceSelectionListener.cl
+ ass
+SHA1-Digest: O9Zw/+j1py2XxKE19lFCyHKbpQY=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/factory/DiagramP
+ aletteFactory$1.class
+SHA1-Digest: T1leKT6M+vJriyLUVjLWxQiwRpU=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Enca
+ psulatedClassifierDropEditPolicy.class
+SHA1-Digest: tOf5mTmy63sTjPgixyUL2Y7UoqM=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Inte
+ rnalBlockDiagramPreferenceInitializer.class
+SHA1-Digest: JCCI4mcBuysihsRs4860njqucvU=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/CreateUmlElem
+ entDialog$SetNameCommand.class
+SHA1-Digest: JH+DbsVD0B4dqioCQ5XtsUrlElU=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog$CreateInterfaceRealizationCommand.class
+SHA1-Digest: IGutT8D9GmY1K5QCkaxcQBgaVJA=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cust
+ omConnectorPreferencePage$LabelAppearenceSelectionListener.class
+SHA1-Digest: YdB3BJ2XTN5apr59yVnnvLMHdBk=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog$SelectorLabelProvider.class
+SHA1-Digest: gFGpj/FdFWuwbnkudWAx/QGEzJA=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/part/InternalBlo
+ ckDiagramEditor$1.class
+SHA1-Digest: L3IBpdzmORA9PblCdfQhpR1yFSM=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/dnd/helper/Custo
+ mLinkMappingHelper.class
+SHA1-Digest: pmposa7BblC3UDEO9l/YI5OujE4=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/CustomE
+ ditPolicyProvider.class
+SHA1-Digest: DQdTpvc9hHcGULue30aSbf5CmLM=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Cust
+ omBlockPropertyCompositeSemanticEditPolicy.class
+SHA1-Digest: anaM+WmSdy/w1PgphTScPwyAa84=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/compatibility/Di
+ agramVersionUpdater.class
+SHA1-Digest: WZVJSwnLyrd0SMzBhxA3pqw3TS8=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/dnd/helper/Custo
+ mLinkMappingHelper$1.class
+SHA1-Digest: e5JZq2u6lEvJj7SgTjaGO5pC+Oc=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/part/InternalBlo
+ ckDiagramEditor$2$1.class
+SHA1-Digest: 93BFnpYcSh/0QSGlng0TAYdyNAw=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/CreateUmlElem
+ entDialog.class
+SHA1-Digest: oa5ExSo03ezKJoQLQ8vxE+Jb2+c=
+
+Name: about.html
+SHA1-Digest: mLkmRLtG3amkcY0I7KSYZX6qKhs=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog$DestroyDependencyWithoutSupplierCommand.class
+SHA1-Digest: evyxjWnCdHYKKQn1AM2yWZctuX4=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Bloc
+ kCompositePreferencePage.class
+SHA1-Digest: oDZd7KnpcTkX0RKTXYHxcmlbjTQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cust
+ omConnectorPreferencePage.class
+SHA1-Digest: 8IunUuiYZXbJgN6vgW0R1VCXkBc=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/compatibility/Di
+ agramVersionUpdater$1.class
+SHA1-Digest: 0bLc5FqZfzq/b76XhCTzDAmt6xA=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Comm
+ entPreferencePage.class
+SHA1-Digest: kaATw0UYz1Rn6Hkr3/lC52O3tf4=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/utils/InternalBl
+ ockDiagramTester.class
+SHA1-Digest: bVWpXy0PFYcTAvTBSszlqsTRdK4=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/NewElementRep
+ resentation.class
+SHA1-Digest: GJpKCIA6PJpjjfUIll/LA2NpjyM=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog$1.class
+SHA1-Digest: h+/nMKuPrtqhZ+l1AwJNgZczcj0=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/handler/ManagePr
+ ovidedInterfacesHandler$ManageProvidedInterfaceAction.class
+SHA1-Digest: M80QiVH3cgf9uohBezfIJdRzfz0=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/utils/TypeDropHe
+ lper.class
+SHA1-Digest: HDG+UP2QBU588+6YfYp0CE/RNRc=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/Validat
+ ionDecoratorProvider.class
+SHA1-Digest: a3XS9C8eu4tMAyimxPVAhwlpenU=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/Inherit
+ edCompositeDiagramEditPartProvider.class
+SHA1-Digest: fgwhm69mi4bbBDWVWvrlD1LvRTY=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/factory/DiagramP
+ aletteFactory$2.class
+SHA1-Digest: GDFhWJKmiFbwgPSIN3hH/1M8q2o=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog$CustomContentProvider.class
+SHA1-Digest: eSnOX9MbKamFaliDxVKCK1lyzvc=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Cust
+ omBlockPropertyCompositeDropEditPolicy.class
+SHA1-Digest: Qs1evDvKFzxpOQCNA2QIiHp+Fsc=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/CustomG
+ raphicalTypeRegistry.class
+SHA1-Digest: aL/cqdm6XFALlNAdEXzCP8niAOI=
+
+Name: palettes/internalblock.palette.gen.xml
+SHA1-Digest: 66LrSVws2vDWbns7Mh6pBWM2T18=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/InternalBlockDia
+ gramForMultiEditor.class
+SHA1-Digest: nkXKz14KGY8LJkCGKFZHYcnanPE=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/handler/ShowHide
+ RelatedContentsAction.class
+SHA1-Digest: /S4P5Z54bgO1iEIyP6C3vxsJx0M=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/part/InternalBlo
+ ckDiagramEditor$2.class
+SHA1-Digest: rbxIoyxWvk47nnUlvQmH8Ifi30g=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Bloc
+ kPropertyCompositePreferencePage.class
+SHA1-Digest: 1Rz76QUOJ6VFZOxUM522u6WvBp8=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cust
+ omNestedBlockPropertyCompositePreferencePage$AppearenceSelectionListe
+ ner.class
+SHA1-Digest: mg8uJPYbu1KhLHv5aTa8k1+3blQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cust
+ omConnectorPreferencePage$SourceMultAppearenceSelectionListener.class
+SHA1-Digest: MNO8ONKvOadAxZ5K3GNLOlBjhfc=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/dnd/helper/Custo
+ mLinkMappingHelper$2.class
+SHA1-Digest: CQKnFveP6azXaVc33lF7PPRfbbc=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/part/InternalBlo
+ ckDiagramEditor$2$2.class
+SHA1-Digest: aRn5UVASSUcxrkgz9pIhmK7oMAU=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/Validat
+ ionProvider.class
+SHA1-Digest: tBcSWNobDgDPq9GXSkVw26ERxI0=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/CreateUmlElem
+ entDialog$CustomCreateElementCommand.class
+SHA1-Digest: xVuZ5uvBf6uYnZaB8NAK8iRl0Sk=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Inte
+ rnalBlockDiagramLinkPreferencePage.class
+SHA1-Digest: 8Ge8omqEdgI2rhZ/DKLUgMrDNFk=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Cust
+ omBlockCompositeSemanticEditPolicy.class
+SHA1-Digest: r2MHNq1K9ldEbHEy0HIwctrK22A=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/InternalBlockDia
+ gramEditorFactory.class
+SHA1-Digest: tcHRREibFY7oO3Gp0Id+s2d+LC8=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Inte
+ rnalBlockDiagramNodePreferencePage.class
+SHA1-Digest: iu+T5N/enB326Tnp5P0LOp3ne1E=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/Element
+ Types.class
+SHA1-Digest: +Vp8z1e8dqYbHgFUpDk0hrwKGOs=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/ActionS
+ tateSourceProvider.class
+SHA1-Digest: gj6g89kT3MvHorf4cLYsQSjSmos=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/Graphic
+ alTypeRegistry.class
+SHA1-Digest: 9QSF+wp9UovbjazQz3OlhJjZTJ8=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/compatibility/Ol
+ dElementTypes.class
+SHA1-Digest: G8OEUQXbOPnbuJaUG2ZWbU7TCJs=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog$2.class
+SHA1-Digest: 6oaup+m3TkExlwEL72bsCPj4UjI=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Type
+ dElementDropEditPolicy.class
+SHA1-Digest: QxDQLdHQHckfhl6n9wyNqmWaHCE=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Inte
+ rnalBlockDiagramDragDropEditPolicy.class
+SHA1-Digest: Ixr9UtQFCoU+gT0qgFMxRkToeBY=
+
+Name: plugin.properties
+SHA1-Digest: vsU8kR99k7ToklzKhlVZ5Ow1bxU=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/Interna
+ lBlockDiagramEditPolicyProvider.class
+SHA1-Digest: qlUSJls1myUHQfzilRw7wgp3ob4=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/ParserP
+ rovider.class
+SHA1-Digest: g7cf7suP428+UlgHChU/5LjQ6sc=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/utils/PortDropHe
+ lper.class
+SHA1-Digest: InK2xUj9amc6Pyed8FtnDNtH4vM=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/helper/advice/De
+ leteViewDuringMoveHelperAdvice.class
+SHA1-Digest: 8LeQ8MoyhaAh3Dg8eyW3JWCDZsQ=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cons
+ traintPreferencePage.class
+SHA1-Digest: HMR0bJShGzg0AN0EAvj+r/JnXWA=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/Activator.class
+SHA1-Digest: Ky58qaVGW+SJW95c9VtW/XHOpnY=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Flow
+ PortAsBorderItemPreferencePage.class
+SHA1-Digest: vyxJT+Q8tWy136qGK7fuIDhU3yM=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Comm
+ entAnnotatedElementPreferencePage.class
+SHA1-Digest: AhIrN1wDoAFNYUpb+RYOsNQ33XA=
+
+Name: icons/obj16/Link.gif
+SHA1-Digest: rIUuhQQqp8zE33keUz/P2wicZaU=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/part/InternalBlo
+ ckDiagramEditor$3.class
+SHA1-Digest: YWUDCjwfqFTyhcr/gBnEY65sfjg=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Cust
+ omDragDropEditPolicy.class
+SHA1-Digest: w3hHIr5ZONalbnrL84yiBZvMMsw=
+
+Name: plugin.xml
+SHA1-Digest: WUZgHykfwdEm944dCFfztxww+eM=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/handler/ShowHide
+ RelatedContentsHandler.class
+SHA1-Digest: nmLDhYzbbW48a/KoQ6WLw5C1U14=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Cust
+ omConnectorPreferencePage$TargetMultAppearenceSelectionListener.class
+SHA1-Digest: +AAXIZGXDFO96q0ds5CJh6Z1UrA=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/CreateInternalBl
+ ockDiagramWithNavigationHandler.class
+SHA1-Digest: 0TV3Vf8hQ9vzzBGUUqRrv6KsmTg=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/preferences/Flow
+ PortAsBorderItemPreferencePage$AppearenceSelectionListener.class
+SHA1-Digest: hQ8uisst6nRQ6I/QSlGcYsdH7kA=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/provider/Validat
+ ionProvider$1.class
+SHA1-Digest: 9W/KOyM8xZ6LJu5Tj/5GUXeMT6c=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/ui/InterfaceMana
+ gerDialog.class
+SHA1-Digest: 62CD5tcPgQp0cIxcey1Aq9om42w=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/InternalBlockDia
+ gramCondition.class
+SHA1-Digest: 14urpCU1YBjPAtgUNUtOTEHql/U=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Cust
+ omNestedBlockPropertyCompositeSemanticEditPolicy.class
+SHA1-Digest: 1ZuCi3Uxtre9OSqK4OoEgMRvzeE=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/factory/Internal
+ BlockDiagramViewFactory.class
+SHA1-Digest: Jg2iangV6yw9zJ9GL710ITspuEI=
+
+Name: org/eclipse/papyrus/sysml/diagram/internalblock/edit/policy/Diag
+ ramSemanticEditPolicy.class
+SHA1-Digest: jG9sAtq9DKeR8/C4dH+m8MfHSXo=
+

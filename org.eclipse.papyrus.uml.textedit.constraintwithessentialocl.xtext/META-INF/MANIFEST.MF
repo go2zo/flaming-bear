@@ -1,0 +1,65 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.papyrus.uml.textedit.constraintwithes
+ sentialocl.xtext;singleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.pa
+ pyrus.extensionpoints.editors,org.eclipse.xtext.gmf.glue,com.google.i
+ nject;bundle-version="2.0.0",org.eclipse.uml2.uml;bundle-version="3.2
+ .0",org.eclipse.ocl.examples.xtext.essentialocl.ui;bundle-version="3.
+ 1.0",org.eclipse.gef;bundle-version="3.7.0",org.eclipse.gmf.runtime.d
+ iagram.ui;bundle-version="1.5.0",org.eclipse.papyrus.infra.core;bundl
+ e-version="0.8.0",org.eclipse.core.expressions
+Bundle-Activator: org.eclipse.papyrus.uml.textedit.constraintwithessen
+ tialocl.xtext.EssentialOCLPopupPlugin
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-Version: 3.1.0.v201203211542
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/uml/textedit/constraintwithessentialocl/xtex
+ t/EssentialOCLPopupEditorConfiguration$Reconciler.class
+SHA1-Digest: XcRoSpkuf2YZMxEtrjt7H6sksqo=
+
+Name: org/eclipse/papyrus/uml/textedit/constraintwithessentialocl/xtex
+ t/IXtextEMFReconciler2.class
+SHA1-Digest: sXtO4vm6w5NQ00GkiRLuIDBJcfs=
+
+Name: org/eclipse/papyrus/uml/textedit/constraintwithessentialocl/xtex
+ t/EssentialOCLPopupUiModule.class
+SHA1-Digest: Sd6RQa0eL4zhQEgfbujGlWzvS4o=
+
+Name: org/eclipse/papyrus/uml/textedit/constraintwithessentialocl/xtex
+ t/EssentialOCLPopupPlugin.class
+SHA1-Digest: aSWyGjm0PPyG7ny0RXWS4/3bHG4=
+
+Name: org/eclipse/papyrus/uml/textedit/constraintwithessentialocl/xtex
+ t/EssentialOCLPartialModelEditor.class
+SHA1-Digest: mODsVDt7d+4rUSYIN6MfEgeL5Uw=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/papyrus/uml/textedit/constraintwithessentialocl/xtex
+ t/EssentialOCLPopupRuntimeModule.class
+SHA1-Digest: 8oUyOYiXrhYO50DCrebQ4jMlFAg=
+
+Name: plugin.xml
+SHA1-Digest: KOki1poUB2BTfUGdPHji3pEv97k=
+
+Name: about.html
+SHA1-Digest: y0N4Xo0SWk7dkT2S3XYFPomfO1U=
+
+Name: org/eclipse/papyrus/uml/textedit/constraintwithessentialocl/xtex
+ t/EssentialOCLPopupEditorConfiguration.class
+SHA1-Digest: NKBoudNxlOIX6JgLUoGB00v7NeA=
+
+Name: org/eclipse/papyrus/uml/textedit/constraintwithessentialocl/xtex
+ t/EssentialOCLPopupEditorConfiguration$UpdateConstraintCommand.class
+SHA1-Digest: GAsCajVjb/HuygM88RavYpu0JEQ=
+
+Name: plugin.properties
+SHA1-Digest: 6Pme9Avdga23p0krqdlhyIvFuSE=
+

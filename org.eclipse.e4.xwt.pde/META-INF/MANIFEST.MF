@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.e4.xwt.pde;singleton:=true
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/ecl
+ ipse:e4/org.eclipse.e4.xwt/bundles/org.eclipse.e4.xwt.pde;tag=v201106
+ 03
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.e4
+ .xwt;bundle-version="0.9.0",org.eclipse.core.databinding;bundle-versi
+ on="1.1.0",org.eclipse.jface.databinding;bundle-version="1.4.0"
+Bundle-Activator: org.eclipse.e4.xwt.pde.PDEPlugin
+Export-Package: org.eclipse.e4.xwt.pde,org.eclipse.e4.xwt.pde.ui,org.e
+ clipse.e4.xwt.pde.ui.views
+Bundle-Version: 0.9.1.v20110603
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Name: %Bundle-Name.0
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/e4/xwt/pde/ui/views/XWTViewPart.class
+SHA1-Digest: Tm78IqkNR/6vz/QxbTU5BP+8f1g=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/e4/xwt/pde/ExtensionService.class
+SHA1-Digest: I6Yl56L1mdBklXxD1LTSqquqG+M=
+
+Name: org/eclipse/e4/xwt/pde/ui/views/XWTEditorPart.class
+SHA1-Digest: fq8e7t4NvT2XuFLpyvd7GjWzwC0=
+
+Name: org/eclipse/e4/xwt/pde/PDEPlugin.class
+SHA1-Digest: lNt6/UvFZE4A2RL+MZqChFGdYlw=
+
+Name: org/eclipse/e4/xwt/pde/ui/wizard/XWTWizardPage.class
+SHA1-Digest: ruySdJq73jBrzf0bOk9lizNJUJE=
+
+Name: org/eclipse/e4/xwt/pde/ui/ExceptionHandle.class
+SHA1-Digest: IDlDJqbtO7kbmYA6JTKaijcHbi0=
+
+Name: about.html
+SHA1-Digest: +KDQabAA/C3O/NP2n7v/WkoTZVo=
+
+Name: plugin.properties
+SHA1-Digest: 0M86RNl1NgHwsIcHHKv9lPMnfLA=
+
+Name: org/eclipse/e4/xwt/pde/ui/RCPApplication.class
+SHA1-Digest: 9mZDTDljINB4Ji7xll8QeqUkN/w=
+
+Name: org/eclipse/e4/xwt/pde/ui/URLConverter.class
+SHA1-Digest: cfNN/hbWIuUw/ySEOBzvgwQSJRg=
+
+Name: org/eclipse/e4/xwt/pde/ui/wizard/XWTWizardPage$1.class
+SHA1-Digest: akytvwOJ9jrQF4yZxU5XcJDVMGc=
+
+Name: org/eclipse/e4/xwt/pde/ui/wizard/XWTWizardPage$PageStateManager.
+ class
+SHA1-Digest: vSLoPZc7HdYe9Gf6l/zKZPz1Leg=
+
+Name: plugin.xml
+SHA1-Digest: beughfGGS4lRyXQ6m/7upi+RBeE=
+

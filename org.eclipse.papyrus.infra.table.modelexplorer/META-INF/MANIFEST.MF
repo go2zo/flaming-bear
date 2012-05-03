@@ -1,0 +1,207 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.papyrus.infra.table.modelexplorer;sin
+ gleton:=true
+Require-Bundle: org.eclipse.emf.facet.infra.browser.uicore;bundle-vers
+ ion="0.1.0",org.eclipse.emf.facet.infra.browser.custom.core,org.eclip
+ se.papyrus.views.modelexplorer;bundle-version="0.9.0",org.eclipse.cor
+ e.expressions,org.eclipse.emf.facet.widgets.nattable.instance;bundle-
+ version="0.1.0",org.eclipse.papyrus.infra.table.instance;bundle-versi
+ on="0.9.0",org.eclipse.uml2.uml,org.eclipse.emf.facet.infra.query.cor
+ e,org.eclipse.core.runtime;bundle-version="3.7.0",org.eclipse.emf.tra
+ nsaction;bundle-version="1.4.0",org.eclipse.gmf.runtime.common.core;b
+ undle-version="1.4.1",org.eclipse.gmf.runtime.emf.commands.core;bundl
+ e-version="1.4.0",com.google.collect;bundle-version="1.0.0"
+Bundle-Activator: org.eclipse.papyrus.infra.table.modelexplorer.Activa
+ tor
+Bundle-Version: 0.9.0.v201203211542
+Export-Package: org.eclipse.papyrus.infra.table.modelexplorer,org.ecli
+ pse.papyrus.infra.table.modelexplorer.handlers,org.eclipse.papyrus.in
+ fra.table.modelexplorer.messages,org.eclipse.papyrus.infra.table.mode
+ lexplorer.providers
+Ant-Version: Apache Ant 1.8.2
+Bundle-Vendor: %pluginProvider
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/queries/GetContain
+ edTables$2$1.class
+SHA1-Digest: WA85yJaTQK9YgCztCJB1YI3D/CI=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/queries/IsTableCon
+ tainer.class
+SHA1-Digest: FVigN4iVd5tF+d+/p+IzaDKANAM=
+
+Name: resources/PapyrusTableFacet.facetSet
+SHA1-Digest: dxMeR9zsRm/1hEl16Y2M5KZMUac=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/providers/Tabl
+ ePropertyTester.class
+SHA1-Digest: X6LD+yU0fCJfDhkMl4kTCNeP3aY=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/handlers/RenameTab
+ leHandler$1.class
+SHA1-Digest: AfDtWeSH10adA+L7YjOgEoyW09M=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/messages/messages.
+ properties
+SHA1-Digest: NcRmTDVcwGeJBddUOoLmta8OsYs=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/handlers/AbstractT
+ ableModelExplorerHandler.class
+SHA1-Digest: o4tCwqej5UjuwZv4BsPDX1rARj8=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/handlers/Dupli
+ cateTableHandler.class
+SHA1-Digest: zFf16+ljrOuA5lojlKRI5XQSHhk=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/messages/Messages.
+ class
+SHA1-Digest: lFP1s7dDMZgNbrJSsXczhruagCI=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/queries/IsTabl
+ eContainer.class
+SHA1-Digest: FVigN4iVd5tF+d+/p+IzaDKANAM=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/queries/GetCon
+ tainedTables$2$1.class
+SHA1-Digest: WA85yJaTQK9YgCztCJB1YI3D/CI=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/handlers/Duplicate
+ TableHandler$1.class
+SHA1-Digest: ddnwarq0vEd4M/O5q7a4Mzj8BNY=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/providers/TablePro
+ pertyTester.class
+SHA1-Digest: X6LD+yU0fCJfDhkMl4kTCNeP3aY=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/messages/messa
+ ges.properties
+SHA1-Digest: NcRmTDVcwGeJBddUOoLmta8OsYs=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/handlers/Abstr
+ actTableModelExplorerHandler.class
+SHA1-Digest: o4tCwqej5UjuwZv4BsPDX1rARj8=
+
+Name: plugin.properties
+SHA1-Digest: UN7nd8XlkOxEbY0ZWgasa99e514=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/queries/IsTableCon
+ tainer$1.class
+SHA1-Digest: mIBvl8mmyfLp0sej259GbomQU+o=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/handlers/Dupli
+ cateTableHandler$1.class
+SHA1-Digest: ddnwarq0vEd4M/O5q7a4Mzj8BNY=
+
+Name: resources/PapyrusTableInstanceCustomization.uiCustom
+SHA1-Digest: jq7SRzgsvIe3R0S7Quj+0+sszSo=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/queries/GetTableIc
+ on.class
+SHA1-Digest: 8cgmjcXqB7wGlXEbEgKm69uuAqI=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/queries/IsTabl
+ eContainer$1.class
+SHA1-Digest: mIBvl8mmyfLp0sej259GbomQU+o=
+
+Name: plugin.xml
+SHA1-Digest: SMEGVsClT3YrUcA4jq4tcf734uo=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/handlers/Delet
+ eTableHandler.class
+SHA1-Digest: jlXSkSB+wHbfdHmjT4AaOcolWl4=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/queries/GetTab
+ leIcon.class
+SHA1-Digest: 8cgmjcXqB7wGlXEbEgKm69uuAqI=
+
+Name: resources/PapyrusTableQuery.querySet
+SHA1-Digest: vrVXBJh0kGZ4eWxb8MxSCG8F0us=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/handlers/DeleteTab
+ leHandler.class
+SHA1-Digest: jlXSkSB+wHbfdHmjT4AaOcolWl4=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/Activator.clas
+ s
+SHA1-Digest: sEYFY6Z9FTAWf06BcS49pZYZYcQ=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/queries/GetContain
+ edTables.class
+SHA1-Digest: +e/ayNQsWnEPCnY/mlQfleQxePI=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/queries/GetTableNa
+ me.class
+SHA1-Digest: iWfGaJsSRZvny6seofY6XLjBYDM=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/handlers/Delet
+ eTableHandler$1.class
+SHA1-Digest: B4Hzx8lPbKuQCE6+VZOnW11km4Q=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/Activator.class
+SHA1-Digest: sEYFY6Z9FTAWf06BcS49pZYZYcQ=
+
+Name: about.html
+SHA1-Digest: a2Fk5/pDnCvlEfl7QwDZj/FCgFc=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/handlers/Renam
+ eTableHandler.class
+SHA1-Digest: VCy++t+oRlhfh83rteTlT5CMgjo=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/queries/GetCon
+ tainedTables.class
+SHA1-Digest: +e/ayNQsWnEPCnY/mlQfleQxePI=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/queries/GetTab
+ leName.class
+SHA1-Digest: iWfGaJsSRZvny6seofY6XLjBYDM=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/handlers/DeleteTab
+ leHandler$1.class
+SHA1-Digest: B4Hzx8lPbKuQCE6+VZOnW11km4Q=
+
+Name: resources/PapyrusTableFacetCustomization.uiCustom
+SHA1-Digest: g696F+Nmv/4+TlaTvzTCngl5B/E=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/queries/GetContain
+ edTables$1.class
+SHA1-Digest: 7jgb2ut/Q+lIGUCgtEhCyldRG2U=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/queries/GetContain
+ edTables$2.class
+SHA1-Digest: 5Oke1mFWnLdx/2WcXqZZ0130rhQ=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/handlers/RenameTab
+ leHandler.class
+SHA1-Digest: VCy++t+oRlhfh83rteTlT5CMgjo=
+
+Name: documentation.pdoc
+SHA1-Digest: q+Y6sK9sklsn5hcwZFRjpqhEJrQ=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/handlers/Renam
+ eTableHandler$1.class
+SHA1-Digest: AfDtWeSH10adA+L7YjOgEoyW09M=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/queries/GetCon
+ tainedTables$1.class
+SHA1-Digest: 7jgb2ut/Q+lIGUCgtEhCyldRG2U=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/queries/GetCon
+ tainedTables$2.class
+SHA1-Digest: 5Oke1mFWnLdx/2WcXqZZ0130rhQ=
+
+Name: bin/org/eclipse/papyrus/infra/table/modelexplorer/messages/Messa
+ ges.class
+SHA1-Digest: lFP1s7dDMZgNbrJSsXczhruagCI=
+
+Name: org/eclipse/papyrus/infra/table/modelexplorer/handlers/Duplicate
+ TableHandler.class
+SHA1-Digest: zFf16+ljrOuA5lojlKRI5XQSHhk=
+

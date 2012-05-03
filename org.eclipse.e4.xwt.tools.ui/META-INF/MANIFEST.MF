@@ -1,0 +1,221 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.e4.xwt.tools.ui;singleton:=true
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/ecl
+ ipse:e4/org.eclipse.e4.xwt/bundles/org.eclipse.e4.xwt.tools.ui;tag=v2
+ 0101021
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jd
+ t.core,org.eclipse.e4.xwt;visibility:=reexport,org.eclipse.core.resou
+ rces,org.eclipse.pde.core,org.eclipse.pde.ui,org.eclipse.ui.ide;bundl
+ e-version="3.4.0",org.eclipse.jdt.ui;bundle-version="3.4.0",org.eclip
+ se.ui.console;bundle-version="3.3.0"
+Bundle-Activator: org.eclipse.e4.xwt.ui.XWTUIPlugin
+Export-Package: org.eclipse.e4.xwt.ui,org.eclipse.e4.xwt.ui.utils,org.
+ eclipse.e4.xwt.ui.views
+Bundle-Version: 0.9.0.v20101021
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Name: %Bundle-Name.0
+Import-Package: org.eclipse.text.edits
+Bundle-ManifestVersion: 2
+
+Name: icons/full/etool16/xaml_wiz.png
+SHA1-Digest: 794i3vxMWtV4pKO6u920sLW5blE=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewUIFileWizardPage$1.class
+SHA1-Digest: xhjvkoTu0rFzIuCTqEqrWwHCyhU=
+
+Name: org/eclipse/e4/xwt/ui/jdt/ASTHelper$ImportsManager.class
+SHA1-Digest: rQ5buW0kjpZAYPvZnIOS/7D6JC4=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewUIFileWizardPage$3.class
+SHA1-Digest: YXADgisXwc/xk33h4UvLIRmXdcU=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewUIFileWizard.class
+SHA1-Digest: hg2FyXVvHrR4vKXKdz1Un/q8ArM=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewE4StaticPartWizard.class
+SHA1-Digest: d6kQ3YVvPt3CdWW1XbMzKUhv67g=
+
+Name: icons/full/obj16/xaml_wiz.png
+SHA1-Digest: 794i3vxMWtV4pKO6u920sLW5blE=
+
+Name: org/eclipse/e4/xwt/ui/views/XWTView.class
+SHA1-Digest: torTajoHwJvD7I5LhdQ0L+kCPV0=
+
+Name: org/eclipse/e4/xwt/ui/jdt/ASTHelper.class
+SHA1-Digest: heytEnHZ50mUfErQuUa22kUWLAE=
+
+Name: org/eclipse/e4/xwt/ui/XWTUIPlugin.class
+SHA1-Digest: Yi62T9svw5w81YRbJk03O0Ql9ds=
+
+Name: icons/full/obj16/Event.png
+SHA1-Digest: El2o8FZnTjGCSAEL+C9ErBKaaG8=
+
+Name: org/eclipse/e4/xwt/ui/jdt/ClasspathContainer.class
+SHA1-Digest: MvPif5kGrrbxgDgyW1uwYKu8leI=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewUIFileWizard$2.class
+SHA1-Digest: jf2Tqq7+ESryrD8F+xlYz8znD3A=
+
+Name: org/eclipse/e4/xwt/ui/actions/XWTViewOpenAction.class
+SHA1-Digest: iEbFPzarV3l0c8Tfp5Gq2YNfgyU=
+
+Name: org/eclipse/e4/xwt/ui/jdt/ClasspathContainerInitializer.class
+SHA1-Digest: i+SKIwUCgZa2k1SZvvSnAsCB9ME=
+
+Name: org/eclipse/e4/xwt/ui/views/IContentProvider.class
+SHA1-Digest: +wAzSK9r6OhMMlX+iGPPOcJXSgA=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewPresentationWizard$1.class
+SHA1-Digest: xvH6dR4tMaZwqoezZA/zDV5I/Sc=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: icons/full/obj16/eFace16.png
+SHA1-Digest: NkJU9+X8sWl066O8TbvJQEKeud0=
+
+Name: org/eclipse/e4/xwt/ui/jdt/ProjectHelper.class
+SHA1-Digest: WsryXeBNYHV5hEhBM/UmdHvzZOk=
+
+Name: org/eclipse/e4/xwt/ui/utils/ImageManager.class
+SHA1-Digest: Epy/jy6iC7FfAsXPALZgrqwN8rU=
+
+Name: org/eclipse/e4/xwt/ui/views/ProjectContentProvider.class
+SHA1-Digest: qKnHLnYXxtSZ1iAkWHzxeL+DmNU=
+
+Name: icons/full/etool16/newexprj_wiz.png
+SHA1-Digest: S/uWS1X6x+6uJkrGTiqfyCQ4IAY=
+
+Name: org/eclipse/e4/xwt/ui/utils/ProjectContext.class
+SHA1-Digest: QrfWGUbbZ8eN32LXwtnS1pkhhew=
+
+Name: org/eclipse/e4/xwt/ui/actions/XWTGenerateView.class
+SHA1-Digest: O/K/Yk489n26qOZIhEkBwEz1djI=
+
+Name: icons/full/obj16/TreeView.gif
+SHA1-Digest: J08i2rueFvxIsJ1Z9BgktWZSpEE=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewPresentationWizardPage$DataCont
+ extFieldAdapter.class
+SHA1-Digest: 5eMDYT0aqorBlr3S/uAFKnPvpIo=
+
+Name: org/eclipse/e4/xwt/ui/actions/RemoveContainerJars.class
+SHA1-Digest: HYwb2crrntOsjIILX+8NG4ezQg4=
+
+Name: org/eclipse/e4/xwt/ui/utils/ProjectContext$RuntimeLoader.class
+SHA1-Digest: Ke5buLXXDAFKHyzYCYYcIZQW+IY=
+
+Name: org/eclipse/e4/xwt/ui/utils/LibraryBuilder.class
+SHA1-Digest: DxIostJfpgjS/G3A6nvPd2lM6ts=
+
+Name: org/eclipse/e4/xwt/ui/utils/Log.class
+SHA1-Digest: 3HdTC4oP+0NOTpHSXX9LbRPD3vA=
+
+Name: icons/full/obj16/Resources.gif
+SHA1-Digest: mL8sXobYVZ1fkk7/26Je6sFobTY=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewPresentationWizardPage.class
+SHA1-Digest: E7FmtL7COLK5j6eIOyNzsTk8Ks4=
+
+Name: org/eclipse/e4/xwt/ui/actions/XWTOpen.class
+SHA1-Digest: 5SmqQl8NmtuM/do5xQ+ZqNTdmmg=
+
+Name: icons/full/obj16/Window.gif
+SHA1-Digest: H4Se4bmwjRPw54EY3hA1+u3jnAI=
+
+Name: icons/full/obj16/Preview.png
+SHA1-Digest: J4aIi2V8N3PPCf3s/v8YJscovyU=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewUIFileWizardPage$2.class
+SHA1-Digest: eRdvGWUMHsak20XvGnkrgLJMRUw=
+
+Name: org/eclipse/e4/xwt/ui/actions/AddContainerJars.class
+SHA1-Digest: jHW195Jvdsh9Wc+KPMhCKIVnrSc=
+
+Name: org/eclipse/e4/xwt/ui/utils/DependencyBuilder.class
+SHA1-Digest: 4wtRaDvnay2Fy9uZWr2zXPv8riw=
+
+Name: icons/full/etool16/newexprj_wiz.gif
+SHA1-Digest: bOxG5J4AzhtVtfNvVW+8eoRJPao=
+
+Name: plugin.properties
+SHA1-Digest: j4bu20nVqr+1FFtvIQ7jtsmE6fg=
+
+Name: org/eclipse/e4/xwt/ui/utils/IBuildPropertiesConstants.class
+SHA1-Digest: 0jFmt65zGUnK8tgJ8kBpuJkAnRY=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewPresentationWizardPage$1.class
+SHA1-Digest: rjT9PepxPBceuRYxACoeZo0jz+E=
+
+Name: org/eclipse/e4/xwt/ui/utils/AbstractBuilder.class
+SHA1-Digest: npVXaEz77FViPUbTCZ3m7dw9iR8=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewPresentationWizard.class
+SHA1-Digest: aYefqc8Mua1I5n/pcldK1cmvLvg=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewUIFileWizard$1.class
+SHA1-Digest: xFwHXaUXAwJ41LCtsBvVP1t0+Rg=
+
+Name: org/eclipse/e4/xwt/ui/jdt/IContainerConstants.class
+SHA1-Digest: GAxgPlHCnQ1+4Nadj6PzDfJK3Ng=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewUIFileWizard$3.class
+SHA1-Digest: syxHI0i4n1vMKzXs7mcyg6l/Szk=
+
+Name: plugin.xml
+SHA1-Digest: /XPGlNeCfmkIf6opI5kFYezffAc=
+
+Name: org/eclipse/e4/xwt/ui/utils/DisplayUtil.class
+SHA1-Digest: SL/zhf+Th/qYSoVoSKHeegQ2194=
+
+Name: icons/full/obj16/xaml.png
+SHA1-Digest: GwFNxwfuD2SJGj+K/M1GCHwpp+Y=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewE4DynamicPartWizardPage.class
+SHA1-Digest: Yr2gINCyrkluCAL5A4j9hvzE904=
+
+Name: icons/full/obj16/ListBox.gif
+SHA1-Digest: m7CoejyO/BwL1K8nsf+3iF2nYsg=
+
+Name: icons/full/obj16/Table.gif
+SHA1-Digest: uMozJgCLAD3XL4cmpwtst01gdlc=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewUIElementWizardPage.class
+SHA1-Digest: iJDNlXXNCCk0gnhtwGHY6Hw0qaw=
+
+Name: org/eclipse/e4/xwt/ui/ExceptionHandle.class
+SHA1-Digest: W0rMVMMMVEQ+yz5j16N3vybJNi0=
+
+Name: org/eclipse/e4/xwt/ui/utils/LoadingContext.class
+SHA1-Digest: jiLway702Ferav/QHInFxPIUjSQ=
+
+Name: org/eclipse/e4/xwt/ui/utils/ClassLoaderHelper.class
+SHA1-Digest: yYTR9aF5/PpLU/LcHDkIkL7ya6Y=
+
+Name: org/eclipse/e4/xwt/ui/utils/ProjectUtil.class
+SHA1-Digest: r7giEsvV6XejBJx0Tkqz5JxAU2M=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewE4DynamicPartWizard.class
+SHA1-Digest: lBbyCVpjXIa7PIwzAfjBsfqb2dk=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewUIElementWizard.class
+SHA1-Digest: K9ByzlE0uo35NsH+YNJXetxL68o=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewUIFileWizardPage.class
+SHA1-Digest: oGWe2MiO92OZ/H0g/xinQXCwwds=
+
+Name: org/eclipse/e4/xwt/ui/wizards/NewE4StaticPartWizardPage.class
+SHA1-Digest: rzxVMsPyGQBnsAp38TS/jELWyaY=
+
+Name: org/eclipse/e4/xwt/ui/XWTPerspectiveFactory.class
+SHA1-Digest: 4yPiLdSmLMsEu3dZ+ewjhf5o6+E=
+
+Name: icons/full/obj16/Element.png
+SHA1-Digest: 8qo3hh9vBYhekVEC8lGEFHUerhQ=
+
+Name: org/eclipse/e4/xwt/ui/utils/ProjectContext$1.class
+SHA1-Digest: yDINhvzAXMkWa0voUemEQbdxqCE=
+

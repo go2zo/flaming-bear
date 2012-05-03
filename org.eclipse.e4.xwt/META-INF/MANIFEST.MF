@@ -1,0 +1,1278 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.e4.xwt;singleton:=true
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/ecl
+ ipse:e4/org.eclipse.e4.xwt/bundles/org.eclipse.e4.xwt;tag=v20110603
+Bundle-Activator: org.eclipse.e4.xwt.internal.Activator
+Require-Bundle: org.eclipse.jface.databinding;bundle-version="1.2.0",o
+ rg.eclipse.core.databinding.beans;bundle-version="1.1.0",org.eclipse.
+ swt;bundle-version="3.4.0",org.eclipse.core.databinding;bundle-versio
+ n="1.1.0",org.eclipse.jface;bundle-version="3.4.0",org.eclipse.core.d
+ atabinding.property;bundle-version="1.1.0",org.pushingpixels.trident;
+ bundle-version="1.2.0",org.eclipse.equinox.common;bundle-version="3.4
+ .0"
+Export-Package: org.eclipse.e4.xwt,org.eclipse.e4.xwt.animation,org.ec
+ lipse.e4.xwt.annotation,org.eclipse.e4.xwt.callback,org.eclipse.e4.xw
+ t.collection,org.eclipse.e4.xwt.converters,org.eclipse.e4.xwt.core,or
+ g.eclipse.e4.xwt.databinding,org.eclipse.e4.xwt.dataproviders,org.ecl
+ ipse.e4.xwt.graphics,org.eclipse.e4.xwt.input,org.eclipse.e4.xwt.inte
+ rnal.core,org.eclipse.e4.xwt.internal.databinding.menuitem,org.eclips
+ e.e4.xwt.internal.utils,org.eclipse.e4.xwt.internal.xml,org.eclipse.e
+ 4.xwt.javabean,org.eclipse.e4.xwt.javabean.metadata,org.eclipse.e4.xw
+ t.javabean.metadata.properties,org.eclipse.e4.xwt.jface,org.eclipse.e
+ 4.xwt.metadata,org.eclipse.e4.xwt.utils,org.eclipse.e4.xwt.validation
+Bundle-Version: 0.9.1.v20110603
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Name: %Bundle-Name.0
+DynamicImport-Package: *
+Import-Package: org.osgi.framework;version="1.5.0"
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/e4/xwt/converters/ObjectToBoolean.class
+SHA1-Digest: mcIcxB3liEK1yB4RwJPjiAW61us=
+
+Name: org/eclipse/e4/xwt/internal/utils/DocumentObjectSorter$AttrCompa
+ rator.class
+SHA1-Digest: u5cktsLuGxqf6uoQJMcds2S88aE=
+
+Name: org/eclipse/e4/xwt/core/MultiDataTrigger.class
+SHA1-Digest: 3If2VRagcio6bNve4nHBtD/sPQo=
+
+Name: org/eclipse/e4/xwt/ICLRFactory.class
+SHA1-Digest: bQP6qeR89aA6CtUSjZZtPfsRWsE=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableViewerColum
+ nTextProperty.class
+SHA1-Digest: 5tJPnO4bVhSpxWPdDD/QezadcUo=
+
+Name: org/eclipse/e4/xwt/internal/core/MetaclassService.class
+SHA1-Digest: 3cJMzQt26bh19lvWRwjQScRbo54=
+
+Name: org/eclipse/e4/xwt/metadata/ISetPostAction.class
+SHA1-Digest: i9l8LK9Xq4wmn4SlAOyGmeODUOM=
+
+Name: org/eclipse/e4/xwt/internal/xml/ElementHandler$ExtensionParser.c
+ lass
+SHA1-Digest: +aE4U4eAQXnIs379yNHN0ainDwk=
+
+Name: org/eclipse/e4/xwt/converters/ObjectToObject.class
+SHA1-Digest: JOPbDvwIqucZlNokz4fHb6pjJLQ=
+
+Name: org/eclipse/e4/xwt/converters/StringToPoint.class
+SHA1-Digest: V6L9hljTKAIYIOGI2lUaeUwrAuo=
+
+Name: org/eclipse/e4/xwt/animation/internal/ScenarioTimeline.class
+SHA1-Digest: BD+0x4Hy6tb0UBdLQgSa1nFgzW0=
+
+Name: org/eclipse/e4/xwt/IValueConverter.class
+SHA1-Digest: QgIig+H67J9o5Rnyg/YaDzd92QU=
+
+Name: org/eclipse/e4/xwt/javabean/Controller.class
+SHA1-Digest: FxYYXihwsMqAfrsk+in19XeWGrY=
+
+Name: org/eclipse/e4/xwt/animation/interpolator/PointPropertyInterpola
+ tor.class
+SHA1-Digest: scSgdD62We5VzXI9Xvbqv63rxkk=
+
+Name: org/eclipse/e4/xwt/databinding/ControlDataBinding.class
+SHA1-Digest: 5vza3ku5b3BH4BIzqwg7uuqHoPQ=
+
+Name: org/eclipse/e4/xwt/IDataProvider.class
+SHA1-Digest: PWS7/BDmYOZ/RS0j+EP3oLoeYMI=
+
+Name: org/eclipse/e4/xwt/animation/KeySpline.class
+SHA1-Digest: 8jIqwRdT3KJXLA2zChQ7rRYXCFM=
+
+Name: org/eclipse/e4/xwt/internal/core/ScopeManager$ObservableFactory.
+ class
+SHA1-Digest: KcuFeJgJW09w8ms+rWpjYduOcNA=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TriggersProperty
+ .class
+SHA1-Digest: k5Vy9mNiYNwt9XPE3eUO1TBcwS4=
+
+Name: org/eclipse/e4/xwt/core/IRenderingContext.class
+SHA1-Digest: pPWzxMISpSzZCqjsI+9LRoYsHE4=
+
+Name: org/eclipse/e4/xwt/core/TriggerAction.class
+SHA1-Digest: SSkextfb/JIM1DcBY0xQsHcJHhA=
+
+Name: org/eclipse/e4/xwt/IDataBindingInfo.class
+SHA1-Digest: CB79cLen6eeaacTj5H7kleKRBrE=
+
+Name: org/eclipse/e4/xwt/converters/StringToFormAttachment.class
+SHA1-Digest: dSd1E+UjF1cYcVtm6+R82j44fyU=
+
+Name: org/eclipse/e4/xwt/metadata/IEvent.class
+SHA1-Digest: 8De+zcGLbGX+AY6Ou2vWqVjtlrQ=
+
+Name: org/eclipse/e4/xwt/internal/utils/UserData$1.class
+SHA1-Digest: 9GpqFpZmbXA6tI93IsTcQBwGXoE=
+
+Name: org/eclipse/e4/xwt/converters/StringMultiValueConerter.class
+SHA1-Digest: BYZ01wo1TX/evjisIt2vWk647/k=
+
+Name: org/eclipse/e4/xwt/XWTLoader$5.class
+SHA1-Digest: OvnhFEdl84q07Oy1Sqz0vTmZQNI=
+
+Name: org/eclipse/e4/xwt/animation/KeyTimeType.class
+SHA1-Digest: pBNBPHASwdzvmd9w9mG0B1GlqvA=
+
+Name: org/eclipse/e4/xwt/IEventConstants.class
+SHA1-Digest: xxOIeBdVpgQcOA9D7hKIqke+ULg=
+
+Name: org/eclipse/e4/xwt/IConstants$1.class
+SHA1-Digest: L/LhEQsk7F2zqerwNb0hrx+OCYs=
+
+Name: org/eclipse/e4/xwt/core/TriggerBase.class
+SHA1-Digest: QdNYQDJdpwZLAEuy72LP8aqo7sc=
+
+Name: org/eclipse/e4/xwt/internal/core/Binding.class
+SHA1-Digest: UTFb3JE2+/ztLQWhMtmCSHQFlhM=
+
+Name: org/eclipse/e4/xwt/annotation/UIBounds.class
+SHA1-Digest: gP9eMR5uI2xK44FupstaogPdFwA=
+
+Name: org/eclipse/e4/xwt/collection/CollectionViewSource.class
+SHA1-Digest: JeEW20RqgWCelZ7FDYA/5/4RGr0=
+
+Name: org/eclipse/e4/xwt/animation/DiscreteDoubleKeyFrame.class
+SHA1-Digest: tI1sqlcc1VB0Hor56kD1pRovpDc=
+
+Name: org/eclipse/e4/xwt/jface/DefaultCellModifier.class
+SHA1-Digest: 26lxlHD3RcZkt/WVk/lSAHYVhxo=
+
+Name: org/eclipse/e4/xwt/animation/SizeAnimation.class
+SHA1-Digest: 5NbDXP7Kl2bweiaEZIDGN5eoQEY=
+
+Name: org/eclipse/e4/xwt/javabean/StaticResourceBinding.class
+SHA1-Digest: SYcVeWpXLhioPgpL9OFQ7D5aGCo=
+
+Name: org/eclipse/e4/xwt/collection/SortDescription.class
+SHA1-Digest: UQeyLtWl1g4pTn4uq1o0dPB7Bic=
+
+Name: org/eclipse/e4/xwt/core/MultiTrigger$ValueChangeListener.class
+SHA1-Digest: YXh7Hplzya8ZkpPEhcdtt3LXVPQ=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableEditorDynam
+ icProperty$2.class
+SHA1-Digest: FQwk1LwHkPBrJB73RID3qPujPAo=
+
+Name: org/eclipse/e4/xwt/jface/ObservableTreeContentProvider.class
+SHA1-Digest: tyz7dWCDNhcsbZWOSuZoj2FJPaU=
+
+Name: org/eclipse/e4/xwt/animation/DoubleAnimationUsingKeyFrames.class
+SHA1-Digest: mN8FTPTEN1JmwiZEfhlzY5jRihE=
+
+Name: org/eclipse/e4/xwt/converters/StringToURL.class
+SHA1-Digest: I2yanVr76u+hNqFDJuVUNo87M28=
+
+Name: org/eclipse/e4/xwt/internal/core/DynamicValueBinding.class
+SHA1-Digest: 03Ncsuva0BRoYD6w2wVfw1fRcqU=
+
+Name: org/eclipse/e4/xwt/animation/StringAnimationBase.class
+SHA1-Digest: hMGtOssQIXjiNXG6W3frG/xsIa0=
+
+Name: org/eclipse/e4/xwt/animation/Int16AnimationBase.class
+SHA1-Digest: d4yxxlsK4dM3h675ryAgkrEbVuE=
+
+Name: org/eclipse/e4/xwt/metadata/ILoadingType$1.class
+SHA1-Digest: Rlv4+Pdt/Q7xVD35OHA50OTt44E=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/SingleSelectionB
+ eanProperty.class
+SHA1-Digest: ZhnG5Uxq5iSyK8auhC02oykb6nc=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/ColumnViewerColu
+ mnsProperty.class
+SHA1-Digest: 3smepFEJWLTYN7Y132EWJy+AYe8=
+
+Name: org/eclipse/e4/xwt/internal/xml/Element.class
+SHA1-Digest: i8HtjgotbjWwaDUelUUtqKrPUA0=
+
+Name: org/eclipse/e4/xwt/animation/IEasingFunction.class
+SHA1-Digest: W1ySxBUX/5yiOx7ahfdN5kvbTjs=
+
+Name: org/eclipse/e4/xwt/XWT$1.class
+SHA1-Digest: kmITLCOcm0g4rYqUBjopbne4zVQ=
+
+Name: org/eclipse/e4/xwt/core/IElementLoaderFactory.class
+SHA1-Digest: DR7ZfJGymRvfKc1QT3+l5P+HIUg=
+
+Name: org/eclipse/e4/xwt/XWTLoader$3$1.class
+SHA1-Digest: CbzLAT402R+Dbc8tjSptt9kCkys=
+
+Name: org/eclipse/e4/xwt/utils/colors.properties
+SHA1-Digest: sSKEI0sk9uywgrBluwSiePmvAvM=
+
+Name: org/eclipse/e4/xwt/javabean/ResourceLoader$1.class
+SHA1-Digest: Rd0csz0fJcgQGj2388xEmNHN2Kk=
+
+Name: org/eclipse/e4/xwt/animation/PointAnimation.class
+SHA1-Digest: 5v5H0bkKE6ecJESwwBoBHD78g80=
+
+Name: org/eclipse/e4/xwt/XWT$1$1.class
+SHA1-Digest: 9VpGKG+dPfKuACWAYgCc3Jcec/k=
+
+Name: org/eclipse/e4/xwt/core/Setter.class
+SHA1-Digest: /H5f5smUn5UEwJHAdX5sknakvOc=
+
+Name: org/eclipse/e4/xwt/core/Style.class
+SHA1-Digest: Lx17JbczSj0K42ubUwhoRslvx4I=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/MultiSelectionBe
+ anProperty.class
+SHA1-Digest: FXacKMBT4QU5iuD3cBrTLMWU3Zw=
+
+Name: org/eclipse/e4/xwt/animation/CharAnimationBase.class
+SHA1-Digest: Nj+xk09QSR1yo9Iqnzk+GzuXGvY=
+
+Name: org/eclipse/e4/xwt/internal/utils/TableEditorHelper$3.class
+SHA1-Digest: hi7PFODqYRxyg0+L1FrNpDHcdy8=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableColumnEdito
+ rProperty.class
+SHA1-Digest: a/QFPrzoFkDo4xmBXh0bPJDE0PM=
+
+Name: org/eclipse/e4/xwt/utils/PathHelper.class
+SHA1-Digest: pTQyBmGHALT9nsRWurbZjC3nchM=
+
+Name: org/eclipse/e4/xwt/animation/ParallelTimeline.class
+SHA1-Digest: w+emI/Q52TQWtnGYwLqXgCf/2sQ=
+
+Name: org/eclipse/e4/xwt/converters/ListToIObservableCollection.class
+SHA1-Digest: IljYXJBlobU6ElAjuq07+cmNIzE=
+
+Name: org/eclipse/e4/xwt/core/Trigger$1.class
+SHA1-Digest: ZKhxZyC6y8yF8dDR/E+dAt2gWjg=
+
+Name: org/eclipse/e4/xwt/javabean/ValueConvertorRegister.class
+SHA1-Digest: GIAN7iD0iBPudS6dUI7fBX5RaBg=
+
+Name: org/eclipse/e4/xwt/XWTLoader.class
+SHA1-Digest: EhtxtPsyhHZaVbCJlkh52uDBY+0=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/Metaclass.class
+SHA1-Digest: /s18OWwztyW9uh3FrEOmmHkZ3q0=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/LoadedEvent.class
+SHA1-Digest: FdvACeUFQukfkwalHPa3kldzxLI=
+
+Name: org/eclipse/e4/xwt/IConstants.class
+SHA1-Digest: dU5LwCyoNa88PruZ5pkxwq3p0Cs=
+
+Name: org/eclipse/e4/xwt/IIndexedElement.class
+SHA1-Digest: 986FwgkYZ0jgBC77qaM6rqudgu0=
+
+Name: org/eclipse/e4/xwt/IValidationRule$Phase.class
+SHA1-Digest: K9BXUAEyEiO3jhEC7zHvFRai3F0=
+
+Name: org/eclipse/e4/xwt/IXWTInitializer.class
+SHA1-Digest: uhYQv9IphJDB2u2WqVv/1e5gBD4=
+
+Name: org/eclipse/e4/xwt/animation/DoubleAnimationBase.class
+SHA1-Digest: gvJCMOy9YjgPt8moO6NeSaLNmOY=
+
+Name: org/eclipse/e4/xwt/internal/databinding/menuitem/MenuItemSelecti
+ onObservableValue.class
+SHA1-Digest: aVR2u2mb67LfMN5KXBOiefY2OAc=
+
+Name: org/eclipse/e4/xwt/animation/Timeline.class
+SHA1-Digest: WWK/f2ocHlhUlF6QFQyyTTsYrv4=
+
+Name: org/eclipse/e4/xwt/animation/QuadraticEase.class
+SHA1-Digest: lcs+0jYikmcXc4j0mau/PNiMRdQ=
+
+Name: org/eclipse/e4/xwt/dataproviders/AbstractDataProvider.class
+SHA1-Digest: gnQgd67dAuHp1vLFKqBhw72Je30=
+
+Name: org/eclipse/e4/xwt/internal/core/Core.class
+SHA1-Digest: cYZoEr75wOw/JHsSxDMifADkoU8=
+
+Name: org/eclipse/e4/xwt/callback/ICreatedCallback.class
+SHA1-Digest: BGsmn4vDikDiTbe6bKyVs2ussyg=
+
+Name: org/eclipse/e4/xwt/animation/IntAnimation.class
+SHA1-Digest: oCsZwq+688ZYl27W0SRYefaq9K4=
+
+Name: org/eclipse/e4/xwt/input/InputBinding.class
+SHA1-Digest: o3AI4SQfbzMrWHUijGxdebaVx1o=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/TableViewerColumnMetaClass.
+ class
+SHA1-Digest: 7MFAT/IOXAVvooKqr0B6EfN5BZE=
+
+Name: org/eclipse/e4/xwt/core/EventTrigger$RunableAction$1.class
+SHA1-Digest: 93WsiodjOFWMgyZNlK2pFdeBR4Y=
+
+Name: org/eclipse/e4/xwt/input/ICommand.class
+SHA1-Digest: 5vts6EPYvGL92qZ5m84/c9bGKus=
+
+Name: org/eclipse/e4/xwt/internal/core/UpdateSourceTrigger.class
+SHA1-Digest: F0Y1HELREHRSO2/QVEwBMTWlvlY=
+
+Name: org/eclipse/e4/xwt/callback/IBeforeParsingCallback.class
+SHA1-Digest: M2OtyFAY7TKvqSVZCztRYbGKqSw=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/DataProperty.cla
+ ss
+SHA1-Digest: vO5kzdpiK1BSnFkN9YoDIbgotD8=
+
+Name: org/eclipse/e4/xwt/validation/InverseValidationRule.class
+SHA1-Digest: ppQwy7eCN/WUf+vGCwrqbUyGVqA=
+
+Name: org/eclipse/e4/xwt/internal/xml/Attribute.class
+SHA1-Digest: zWqY5QZkHmCFIu3l2uors5Rjb3s=
+
+Name: org/eclipse/e4/xwt/internal/utils/UserData.class
+SHA1-Digest: AJBMIRCMn1Qg1bXKS47GbYXV6WM=
+
+Name: org/eclipse/e4/xwt/jface/DefaultViewerLabelProvider.class
+SHA1-Digest: noHOsp+QGaTb3ncgbHILOHWdOEY=
+
+Name: org/eclipse/e4/xwt/converters/StringToBoolean.class
+SHA1-Digest: mMYaeWkN2veqnb2FJoUix32chH8=
+
+Name: org/eclipse/e4/xwt/internal/core/BindingGate.class
+SHA1-Digest: A7Ivb6HjeVIQyV35axiyReNlyYg=
+
+Name: org/eclipse/e4/xwt/internal/utils/DocumentObjectSorter.class
+SHA1-Digest: qLNemooxw/UPjiMjsDiDB5dRQ8E=
+
+Name: org/eclipse/e4/xwt/XWTLoader$4.class
+SHA1-Digest: x7r/oSKGmptwWN39IFsUqOhYCdM=
+
+Name: org/eclipse/e4/xwt/core/Condition.class
+SHA1-Digest: GJ3v/GPkTEyKHyKRXUggODKBpvk=
+
+Name: org/eclipse/e4/xwt/metadata/DelegateProperty.class
+SHA1-Digest: WRbg/ZhcXAZLOzehjqAkebhzSCY=
+
+Name: org/eclipse/e4/xwt/metadata/IObjectInitializer.class
+SHA1-Digest: LbRUmeh5n7Tcy3NS0MefB4fj3eU=
+
+Name: org/eclipse/e4/xwt/utils/ResourceManager.class
+SHA1-Digest: tyvO97gRXTwHDQH13909/3WLDZ4=
+
+Name: org/eclipse/e4/xwt/internal/xml/ElementManager$1.class
+SHA1-Digest: O/gpZy8xADCg+ILqGrZbxbagRGk=
+
+Name: org/eclipse/e4/xwt/core/ICollectionView.class
+SHA1-Digest: OJm8z3427GGVpql6frLG499Ehlg=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableEditorDynam
+ icProperty.class
+SHA1-Digest: 4ZTr9qe5O8hmp7WfsN2tsorWmuU=
+
+Name: org/eclipse/e4/xwt/animation/SineEase.class
+SHA1-Digest: UC3j5UHhTZq9mI6RnkanmmSWimE=
+
+Name: org/eclipse/e4/xwt/internal/xml/ElementHandler.class
+SHA1-Digest: GfUNvUDPV00AMR5+14guiZeaUWc=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableEditorDynam
+ icProperty$1.class
+SHA1-Digest: T1sd2yn4tknfyE76QmZkCk1l4nk=
+
+Name: org/eclipse/e4/xwt/converters/StringToIValidationRule.class
+SHA1-Digest: heXyobQNkhUqZjD71aNCOdnxGVc=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/EventProperty.cl
+ ass
+SHA1-Digest: wyObsK24tZNQ9i2AKgDqGslomrs=
+
+Name: org/eclipse/e4/xwt/animation/Point3DAnimationBase.class
+SHA1-Digest: PvXLbaYov3AKksxfO04w7mb8ceA=
+
+Name: org/eclipse/e4/xwt/converters/StringToRectangle.class
+SHA1-Digest: QsdV2vGqXbO1DKeTgiZsbdQ2H0c=
+
+Name: org/eclipse/e4/xwt/XWT.class
+SHA1-Digest: GYpPorb8VONe7B/giDSq1QqN7/0=
+
+Name: org/eclipse/e4/xwt/animation/Vector3DAnimationBase.class
+SHA1-Digest: NEOK8s8prFho13da/M1+1sZ36O0=
+
+Name: org/eclipse/e4/xwt/internal/core/ScopeManager$ObservableValueBui
+ lder.class
+SHA1-Digest: vCf1RpZuEhZWmgbYlR4B80UgPVo=
+
+Name: org/eclipse/e4/xwt/converters/ListToSet.class
+SHA1-Digest: KN8YJB9k/r3ROLcCYvD/m0lWABw=
+
+Name: org/eclipse/e4/xwt/core/RadioEventGroup.class
+SHA1-Digest: 4f16xNjRukxsSubjbT9n+iS+5ZM=
+
+Name: org/eclipse/e4/xwt/jface/ViewerFilter.class
+SHA1-Digest: eGpFyBesy5FHC+gbVlnj67AXo+M=
+
+Name: org/eclipse/e4/xwt/converters/CollectionToBoolean.class
+SHA1-Digest: 0kOMPeFDlC5WdWu5I4TDeuuNYH8=
+
+Name: org/eclipse/e4/xwt/animation/QuaternionAnimationBase.class
+SHA1-Digest: LG3kKNvOWT2eLEPBmfXBJpjJpAc=
+
+Name: org/eclipse/e4/xwt/converters/StringToIntArray.class
+SHA1-Digest: 7oAUSaURpHODghvwvoJEJ/JWm8A=
+
+Name: org/eclipse/e4/xwt/jface/CellEditorHelper.class
+SHA1-Digest: ObVF/N8djIzrmRbLiG8/WTtlwqg=
+
+Name: org/eclipse/e4/xwt/internal/xml/DocumentRoot$1.class
+SHA1-Digest: 2gBZhEcLUF3W7/wRlwv2SH4TpCc=
+
+Name: org/eclipse/e4/xwt/internal/utils/TableEditorHelper$2.class
+SHA1-Digest: TXLKnm4erMOibnXiyAnKfiJJMnw=
+
+Name: org/eclipse/e4/xwt/internal/core/IEventController.class
+SHA1-Digest: AFaamqBr5TK0vExyuAiwyjGNAlw=
+
+Name: org/eclipse/e4/xwt/databinding/EventListener.class
+SHA1-Digest: CX0wVZ4wrf6RMDIdtx9Zsxrg/C0=
+
+Name: org/eclipse/e4/xwt/internal/utils/LoggerManager.class
+SHA1-Digest: oFAUhOmvT1QL+qEiz/NvKeXpm1w=
+
+Name: org/eclipse/e4/xwt/animation/ClockController.class
+SHA1-Digest: ICEVXpRD/U0STLkjdOw0xMnv5xA=
+
+Name: org/eclipse/e4/xwt/IMetaclassFactory.class
+SHA1-Digest: IIIkpUIxjY8SS2ht5vA8xNK5TMg=
+
+Name: org/eclipse/e4/xwt/jface/AbstractDialog.class
+SHA1-Digest: q5IE0vPptW2UM53eYHJWeQRiux0=
+
+Name: org/eclipse/e4/xwt/animation/KeyTime.class
+SHA1-Digest: 7GT7HB7t/1HqEdtiDtLSDHxPOsk=
+
+Name: org/eclipse/e4/xwt/converters/StringToType.class
+SHA1-Digest: KJPnuOMOdP7eoSTJ9zqshL7C4Rs=
+
+Name: org/eclipse/e4/xwt/IObservableValueListener.class
+SHA1-Digest: ZJ/lc6cgr9ftzzkBwowzge4z4Bk=
+
+Name: org/eclipse/e4/xwt/animation/PowerEase.class
+SHA1-Digest: VKMltmJVoxMZxIYPRkhmEoiUEYI=
+
+Name: about.html
+SHA1-Digest: +KDQabAA/C3O/NP2n7v/WkoTZVo=
+
+Name: org/eclipse/e4/xwt/metadata/IMetaclass.class
+SHA1-Digest: MNbo6VBpzhBf6Z8vNRjnvUlW9b4=
+
+Name: org/eclipse/e4/xwt/dataproviders/IObjectDataProvider.class
+SHA1-Digest: G+dFhe+PT4+98g3Sry9oYuX2bk8=
+
+Name: org/eclipse/e4/xwt/animation/CubicEase.class
+SHA1-Digest: MKsIYMLZGc7+YiClko7Z6//1HNY=
+
+Name: org/eclipse/e4/xwt/IEventGroup.class
+SHA1-Digest: 2lIUcDga2rkGzWR0RlJXGkcDu/8=
+
+Name: org/eclipse/e4/xwt/animation/FillBehavior.class
+SHA1-Digest: wIyckmGsZ6yZFc7OV/WB+h3zSyw=
+
+Name: org/eclipse/e4/xwt/internal/utils/ObservableValueManager.class
+SHA1-Digest: b2pMX/+wxVVo1wtDkAyq7BnZufM=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableViewerColum
+ nImageProperty.class
+SHA1-Digest: kQiTj0nbescKDWvqwxEn/g7dzIk=
+
+Name: org/eclipse/e4/xwt/callback/ILoadedCallback.class
+SHA1-Digest: /daioMKoHauwbkRCoaIhl+RQ80A=
+
+Name: org/eclipse/e4/xwt/internal/core/Core$ExtensionContext.class
+SHA1-Digest: gFJnMPWbMAEjtbLe1i6Ggr7C5jQ=
+
+Name: org/eclipse/e4/xwt/internal/core/MultiBinding.class
+SHA1-Digest: p/VPmfr4a5M05Cxs5W2m5AQPapY=
+
+Name: org/eclipse/e4/xwt/converters/ObjectToISelection.class
+SHA1-Digest: 4+u9alqpf0valxfhsBnGZ14GWX0=
+
+Name: org/eclipse/e4/xwt/animation/internal/TridentTimeline.class
+SHA1-Digest: A8/eGx76xvmAQd3NKqpGjhdINpE=
+
+Name: org/eclipse/e4/xwt/converters/StringToInteger.class
+SHA1-Digest: pQFEXZoNmVGTdM/9k3QSvWwZwMU=
+
+Name: org/eclipse/e4/xwt/internal/core/BindingExpressionPath.class
+SHA1-Digest: 68BciAgDgVO4G+TzjsnkaIay+uE=
+
+Name: org/eclipse/e4/xwt/Tracking.class
+SHA1-Digest: U5KoM3G8opCaJpTNvuqEDZT3Tz8=
+
+Name: org/eclipse/e4/xwt/core/EventTrigger$RunableAction.class
+SHA1-Digest: FcpBBJ2TwZMB7oSBB6HLLCw/dEY=
+
+Name: org/eclipse/e4/xwt/XWTLoader$6$1.class
+SHA1-Digest: erVNkOTlpxunUZpuca7xk2IuKFM=
+
+Name: org/eclipse/e4/xwt/graphics/Rect.class
+SHA1-Digest: eOxuF9B2v4F/+GcZHRZqeI7mSEQ=
+
+Name: org/eclipse/e4/xwt/metadata/DefaultLoadingType.class
+SHA1-Digest: 1vMhc0+MxYkpF8AJmbbbMYP93jM=
+
+Name: org/eclipse/e4/xwt/core/Trigger.class
+SHA1-Digest: +p0z6jcbi8TUV3YYc8YijS52Wbk=
+
+Name: org/eclipse/e4/xwt/databinding/JFaceXWTDataBinding.class
+SHA1-Digest: GBo6xS8y6zdriEsvWfOTgppaxs4=
+
+Name: org/eclipse/e4/xwt/animation/ByteAnimationBase.class
+SHA1-Digest: 7e+TAHqTk3iZWKhqBFw+iwc9I/I=
+
+Name: org/eclipse/e4/xwt/animation/Clock.class
+SHA1-Digest: K70qamKiKLCvLqihKbP95yV0now=
+
+Name: org/eclipse/e4/xwt/animation/BooleanAnimationBase.class
+SHA1-Digest: 7pYfkT0RKAzEpuNgAAuRqZTrH58=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/BeanEvent.class
+SHA1-Digest: c+ajGvkGkEhKxbzW0GPMsdvi7ow=
+
+Name: org/eclipse/e4/xwt/animation/internal/PathPropertyAccessor.class
+SHA1-Digest: M3ICoLBWytPjrL6S7GfUkO46reY=
+
+Name: org/eclipse/e4/xwt/animation/SplineDoubleKeyFrame.class
+SHA1-Digest: vq/gRXJ3S1e8bqcimqrj51/o6s4=
+
+Name: org/eclipse/e4/xwt/core/IDynamicBinding.class
+SHA1-Digest: /7BJ/tD1pt4o4TGxKQ1cYCe5Jl0=
+
+Name: org/eclipse/e4/xwt/collection/GroupDescription.class
+SHA1-Digest: jQ8GII0fXPKnLxyGgbaF1oMtpCM=
+
+Name: org/eclipse/e4/xwt/animation/internal/AnimationManager.class
+SHA1-Digest: 9SkOcM7yjBf/XamE4P17LXEHkyc=
+
+Name: org/eclipse/e4/xwt/IXWTLoader$Utilities.class
+SHA1-Digest: fSJRjxMbV6gC0EgfsHo3LHr9cGM=
+
+Name: org/eclipse/e4/xwt/animation/Duration$DurationType.class
+SHA1-Digest: 8sz+gUGLg0+StYz7u9W6cCOSJaU=
+
+Name: org/eclipse/e4/xwt/XWTLoader$3.class
+SHA1-Digest: 60OXwnziFd8N+9rkzpyW3wqyoI0=
+
+Name: org/eclipse/e4/xwt/animation/DoubleKeyFrame.class
+SHA1-Digest: rRG5bZ0hwhVvF60HdZO/oh5x5oE=
+
+Name: org/eclipse/e4/xwt/converters/StringToIValueConverter.class
+SHA1-Digest: li1GX0VWEFt0Aw+075N61fLLvXw=
+
+Name: org/eclipse/e4/xwt/jface/ObservableMapLabelProvider.class
+SHA1-Digest: Y9ruqTmxpb7LTJpWBqnTI6pqFVs=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/Behavior.class
+SHA1-Digest: UsItJgygzZv+qRzi/U0lnOGAtHI=
+
+Name: org/eclipse/e4/xwt/metadata/ModelUtils.class
+SHA1-Digest: bEN9iaNkmM0E0U0GrT8ocCcvcBc=
+
+Name: org/eclipse/e4/xwt/metadata/IBehavior.class
+SHA1-Digest: T5nNtE4a5mJnAOvNPukxLfSz9J0=
+
+Name: org/eclipse/e4/xwt/animation/RectangleAnimation.class
+SHA1-Digest: BRdhh/gHFgicggd0jyR6LfYdVpk=
+
+Name: org/eclipse/e4/xwt/internal/core/UIResource.class
+SHA1-Digest: eWoYNAMyFWM51mgOQ83E4c3i5ls=
+
+Name: org/eclipse/e4/xwt/jface/ObservableMapLabelProvider$1.class
+SHA1-Digest: OC00nTK48qK632Hwgz0ht5Knt08=
+
+Name: org/eclipse/e4/xwt/converters/BindingToObject.class
+SHA1-Digest: /X2LieOCs8fZAotkCn6hJX6RSBs=
+
+Name: org/eclipse/e4/xwt/DefaultLoadingContext.class
+SHA1-Digest: UmsH0Zr7mSZAlyhIU1FHx4TR40s=
+
+Name: org/eclipse/e4/xwt/core/MultiDataTrigger$ValueChangeListener.cla
+ ss
+SHA1-Digest: pmJWmEvb8Q6MR4/l/Ju/QFU4kqc=
+
+Name: org/eclipse/e4/xwt/converters/CollectionToInteger.class
+SHA1-Digest: yQv5bakkSu28BNoc0UBQH9cE+MU=
+
+Name: org/eclipse/e4/xwt/INamespaceHandler.class
+SHA1-Digest: lj/IyleuvfoRMV9oT3XyJNf4R/E=
+
+Name: org/eclipse/e4/xwt/converters/IStatusToString.class
+SHA1-Digest: XocjIBiAT8+oGYXz3h4lut/OfkQ=
+
+Name: org/eclipse/e4/xwt/internal/core/Core$2.class
+SHA1-Digest: mGQ9eYS4QgQSNMimIDBam1MA4FU=
+
+Name: org/eclipse/e4/xwt/databinding/XWTObservableValue.class
+SHA1-Digest: nbQLHPWGVKTD/CPh4XNwQIwFaJE=
+
+Name: org/eclipse/e4/xwt/databinding/AbstractDataBinding.class
+SHA1-Digest: tlk5LS44jTD/ttyKd5RqAeNI5Jw=
+
+Name: org/eclipse/e4/xwt/internal/core/ScopeKeeper.class
+SHA1-Digest: XpWi9DrF8U9+VEF5sXjkfB9b7+o=
+
+Name: org/eclipse/e4/xwt/converters/StringToEnum.class
+SHA1-Digest: qlX3THpzXHA7DOd2H3YE3X5rBSk=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/TableEditorMetaclass.class
+SHA1-Digest: oo+SwavPdp/K8ymERWojKcmSbEk=
+
+Name: org/eclipse/e4/xwt/internal/utils/ClassLoaderUtil.class
+SHA1-Digest: uo2RscFsWH/4gcHgrhwG3GxTtw8=
+
+Name: org/eclipse/e4/xwt/core/IBinding.class
+SHA1-Digest: sD9jcveAHOvWLZ53tMn2lBPSiIo=
+
+Name: org/eclipse/e4/xwt/utils/NamedColorsUtil.class
+SHA1-Digest: IQdj+bLY7CEq5opxzTM9fSMO5T0=
+
+Name: org/eclipse/e4/xwt/jface/XWTTitleAreaDialog.class
+SHA1-Digest: D/FU+xquCkAV8m67A5mja0T3O1A=
+
+Name: org/eclipse/e4/xwt/animation/internal/ITimelineGroup.class
+SHA1-Digest: zKxiPEamxgNpfNZ8nqPQeimLx6k=
+
+Name: org/eclipse/e4/xwt/javabean/Controller$LoadedEventListener.class
+SHA1-Digest: 4fAEbp2CwIgNVqN0LUdVCJBoHt4=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/BindingMetaclass.class
+SHA1-Digest: 4QHbCht8sjvAAuIeYpNvC+hS6Ds=
+
+Name: org/eclipse/e4/xwt/animation/EasingDoubleKeyFrame.class
+SHA1-Digest: aMV4uSG0Tu28sAZs3TMDwet9hN8=
+
+Name: org/eclipse/e4/xwt/animation/VectorAnimationBase.class
+SHA1-Digest: LFMemXXOZkQm8Piczb1vKZU8QLw=
+
+Name: org/eclipse/e4/xwt/animation/DoubleAnimationUsingPath.class
+SHA1-Digest: DAGSn6FpfhTvoe1OpKVEVERrwq4=
+
+Name: org/eclipse/e4/xwt/XWTLoaderManager.class
+SHA1-Digest: BfRFMM8hO3R8Xt+t8cS85Ju3fEo=
+
+Name: org/eclipse/e4/xwt/collection/CollectionView.class
+SHA1-Digest: xvfmCEBYzsvpRpAJX7Jd8bs2Z4k=
+
+Name: org/eclipse/e4/xwt/internal/utils/TableEditorHelper$1.class
+SHA1-Digest: QJBd71O3C8YDungV1HFzLJkOWjQ=
+
+Name: org/eclipse/e4/xwt/converters/StringToKeySpline.class
+SHA1-Digest: X1qbtDf3fCoVGu3RKFnYCzrTxlA=
+
+Name: org/eclipse/e4/xwt/converters/AbstractMultiValueConverter.class
+SHA1-Digest: 8oKuONstmFGereFT90OW07sQ5ZI=
+
+Name: org/eclipse/e4/xwt/javabean/ResourceLoaderFactory.class
+SHA1-Digest: ernlByctwNqWE/WVIkYZetvfHKc=
+
+Name: org/eclipse/e4/xwt/dataproviders/ObjectDataProvider.class
+SHA1-Digest: Nd/Uhkk4nBqWyLst37m64NA3Dzw=
+
+Name: org/eclipse/e4/xwt/internal/databinding/menuitem/MenuItemEnabled
+ ObservableValue.class
+SHA1-Digest: ajfPxJKx2EXGHMX/WNCPSBFjWrY=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/InputBeanPropert
+ y.class
+SHA1-Digest: dR6nwBqCXcF4+UOZ1WYK0Fnv9II=
+
+Name: org/eclipse/e4/xwt/animation/HandoffBehavior.class
+SHA1-Digest: Q91GbUxXh/Mak8gmrl2oMjHf+ok=
+
+Name: org/eclipse/e4/xwt/animation/internal/AnimationManager$ScenarioM
+ anager.class
+SHA1-Digest: bgclkcvCzCn5Zd89Hi7Jc4bIPYk=
+
+Name: org/eclipse/e4/xwt/animation/StopStoryboard.class
+SHA1-Digest: c8tLxQk9+NgiqtZoiDJd6p4J2cs=
+
+Name: org/eclipse/e4/xwt/databinding/BindingContext.class
+SHA1-Digest: KClBQWO+fM+y3beo+NKLSUcxi8I=
+
+Name: org/eclipse/e4/xwt/graphics/Color.class
+SHA1-Digest: kXl4hwVEIo92U04qyui/+pkjMT4=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/AbstractMetaclass.class
+SHA1-Digest: qHjNbKf4ky09cicaTzrKPwW5u54=
+
+Name: org/eclipse/e4/xwt/animation/Drawing.class
+SHA1-Digest: XeP0RttOYjKXy+wU9pSv9MMxE3E=
+
+Name: org/eclipse/e4/xwt/databinding/XWTObservableValue$1$1.class
+SHA1-Digest: F5SCZ8jqUgY96AroLJlYYYhX3pc=
+
+Name: org/eclipse/e4/xwt/IValidationRule$Direction.class
+SHA1-Digest: znZ5Kq8Hu8ZsFnzblDD0KWO64ms=
+
+Name: org/eclipse/e4/xwt/animation/interpolator/RectanglePropertyInter
+ polator.class
+SHA1-Digest: JK3piNMU+9YiMaaOHNRDrLvLQwE=
+
+Name: org/eclipse/e4/xwt/internal/core/Core$ConverterService.class
+SHA1-Digest: NW4mOu6gzWcypPvoZ7STzZ6aIao=
+
+Name: org/eclipse/e4/xwt/animation/FloatAnimation.class
+SHA1-Digest: oHU7FUpHCrQxBfcXu54rjb2/4jk=
+
+Name: org/eclipse/e4/xwt/IUIResource.class
+SHA1-Digest: snbR6KMBdPbllrHxQjVkkRHz7Lg=
+
+Name: org/eclipse/e4/xwt/converters/StringToDoubleArray.class
+SHA1-Digest: RkGq3itaobUu3vxW0ety8Ard2Qs=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/AbstractProperty
+ .class
+SHA1-Digest: z3i4yM3OMZ4ZZVTgFS0iKWlbDjM=
+
+Name: org/eclipse/e4/xwt/jface/XWTObservableWrapper.class
+SHA1-Digest: /sTx3XTPjNskSX4h1F9YPbJajNk=
+
+Name: org/eclipse/e4/xwt/internal/xml/XDataHandler.class
+SHA1-Digest: izn5TTvIq6O4ptZpUrZt+j5fG8E=
+
+Name: org/eclipse/e4/xwt/jface/TextCellEditor.class
+SHA1-Digest: H6kD/E8RZO0/DwUEkCl2OubMgbw=
+
+Name: org/eclipse/e4/xwt/animation/TimelineGroup.class
+SHA1-Digest: 5QnGe5OxyIxbewfkiZm/Wx8drg4=
+
+Name: org/eclipse/e4/xwt/animation/RepeatBehavior$IFormatProvider.clas
+ s
+SHA1-Digest: XB1mXctpfzWgxybxdVc7s1a/GQc=
+
+Name: org/eclipse/e4/xwt/core/AbstractEventGroup.class
+SHA1-Digest: j7zFdDdYcMpQQdZLTwx/urNrfds=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableViewerColum
+ nDynamicProperty.class
+SHA1-Digest: gSjIoul4v+wZa+BG50PeXr7U2UE=
+
+Name: org/eclipse/e4/xwt/animation/ThicknessAnimationBase.class
+SHA1-Digest: 8vP1DK1U1UFxxpMpp/dobCb6QuU=
+
+Name: org/eclipse/e4/xwt/animation/ColorAnimation.class
+SHA1-Digest: DD2aehKZaiHz/p5OsosyaQIKNmo=
+
+Name: org/eclipse/e4/xwt/animation/Rotation3DAnimationBase.class
+SHA1-Digest: n/QjgeMeWfo9zdmBOh5BCrGFyK4=
+
+Name: org/eclipse/e4/xwt/XWT$DisplayThread.class
+SHA1-Digest: i5L1d7FCWith3EeX086JMgPcLAs=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/BeanProperty.cla
+ ss
+SHA1-Digest: Yxxvm9J9xQE3GdJnFqZfYqeQToo=
+
+Name: org/eclipse/e4/xwt/IDataBinding.class
+SHA1-Digest: F6v8KPYBQ12VnDbZV9ojjwqKA34=
+
+Name: org/eclipse/e4/xwt/core/IUserDataConstants.class
+SHA1-Digest: 3z2wH43m7hEEJ3lvEftJmqIIAAQ=
+
+Name: org/eclipse/e4/xwt/IDataProvider$DataModelService.class
+SHA1-Digest: y7tJRGpYxbPfEe7uVe8bk2r3QT4=
+
+Name: org/eclipse/e4/xwt/utils/OperatorExceptionMessage.class
+SHA1-Digest: /vnoSgrFmHFL71dtflE3xBLaYBc=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableItemPropert
+ y$Cell.class
+SHA1-Digest: 3rbB6FZxc888bzsZFvUK0hPtztw=
+
+Name: org/eclipse/e4/xwt/animation/SlipBehavior.class
+SHA1-Digest: bC73fznXk+AopO1W+AztmdSykAc=
+
+Name: org/eclipse/e4/xwt/IXWTLoader.class
+SHA1-Digest: lHQLclpiGEluJD3Caa+mg54RzZA=
+
+Name: org/eclipse/e4/xwt/core/EventTrigger$RunablePaintAction.class
+SHA1-Digest: eHYd2IOW4w/V3OdoTWvd4ZyFQbs=
+
+Name: org/eclipse/e4/xwt/databinding/EventManager.class
+SHA1-Digest: othhJbPXMSI0oSQTTV7RYJ30Pus=
+
+Name: org/eclipse/e4/xwt/XWTLoader$2.class
+SHA1-Digest: bJvgMvRGywQDTx8+Ift2DsjY284=
+
+Name: org/eclipse/e4/xwt/XWTLoader$1$1.class
+SHA1-Digest: A7tZHcM3JjJOxmQo8qghXrHi6qs=
+
+Name: org/eclipse/e4/xwt/internal/xml/DocumentRoot$Format.class
+SHA1-Digest: pc+BXt00F/BbUOgZcmxGCgCoKLo=
+
+Name: org/eclipse/e4/xwt/databinding/Event.class
+SHA1-Digest: fH8uEIc1TiEK8nKUKIY2XTb3Kq8=
+
+Name: org/eclipse/e4/xwt/internal/xml/DocumentRoot.class
+SHA1-Digest: UuQJeoXR2c+vx6bxiUawZiMa4ZI=
+
+Name: org/eclipse/e4/xwt/animation/QuinticEase.class
+SHA1-Digest: Ywwh2NsIpEk9G4LY05dLBe1Jl5Y=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/DynamicProperty.
+ class
+SHA1-Digest: wo2/9Sd10/mhTW6fD0cu3DPW9Do=
+
+Name: org/eclipse/e4/xwt/animation/ObjectAnimationBase.class
+SHA1-Digest: ECbWXy3D5Ua/cA0nX5oE7NAnuCg=
+
+Name: org/eclipse/e4/xwt/core/DataTrigger.class
+SHA1-Digest: 0HnzfDuH+nSUyx4birWFpJ+enWI=
+
+Name: org/eclipse/e4/xwt/validation/AbstractValidationRule.class
+SHA1-Digest: V2YR/7FBB1QPNCXWtKpoqeNOaHY=
+
+Name: org/eclipse/e4/xwt/IStyle.class
+SHA1-Digest: CruSBfCDil+x1k+6A5fdHutyoRI=
+
+Name: org/eclipse/e4/xwt/internal/core/Core$1.class
+SHA1-Digest: 9a2Cjc4ADbkK3lVBjW26XOP08Fo=
+
+Name: org/eclipse/e4/xwt/core/IDynamicValueBinding.class
+SHA1-Digest: lpTxKIou00E0JHzxHkh3geWo5zc=
+
+Name: org/eclipse/e4/xwt/graphics/Point.class
+SHA1-Digest: mCi0OseCxwPwKUArag3IIdN4Gv0=
+
+Name: org/eclipse/e4/xwt/converters/SelectionToBoolean.class
+SHA1-Digest: APM62n/4ieMhtynF2tvq8H75ttY=
+
+Name: org/eclipse/e4/xwt/animation/StringParser$ParseError.class
+SHA1-Digest: 6svbhxD3S5SBQ+ZZ4G+CrZICW5s=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableViewerColum
+ nWidthProperty.class
+SHA1-Digest: hqfYv6sTrweftqImtOg2RI9fk+A=
+
+Name: org/eclipse/e4/xwt/InverseValueConverter.class
+SHA1-Digest: pB/CrQ2K5AXtfQz4bt6ZdhOC1ag=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/e4/xwt/animation/internal/ScenarioTimeline$1.class
+SHA1-Digest: MmgppIXWUWfZ7gc5JmvjWWcKJTw=
+
+Name: org/eclipse/e4/xwt/converters/ValueConverterAdapter.class
+SHA1-Digest: CydNxtV84+heWUBgi+FA/jisMrI=
+
+Name: org/eclipse/e4/xwt/IDataProviderFactory.class
+SHA1-Digest: 0hEKl5ZJ/B3el7D4+p1Jg3GakUo=
+
+Name: org/eclipse/e4/xwt/core/Operator.class
+SHA1-Digest: Nl49LCk8yRLt/r0KRj5C7JJKPuk=
+
+Name: org/eclipse/e4/xwt/core/IVisualElementLoader.class
+SHA1-Digest: Y/vrs0blirFlwTdg7i5aSNYnKDc=
+
+Name: org/eclipse/e4/xwt/converters/StringToFont.class
+SHA1-Digest: F0bxVcg8zFIQaSPY5Z7oqUgZfjs=
+
+Name: org/eclipse/e4/xwt/XWTLoader$7.class
+SHA1-Digest: zrZMiwv10USY6223b7QbXOoc3oM=
+
+Name: org/eclipse/e4/xwt/ILoadingContext.class
+SHA1-Digest: VkBL45PWmMS6EkllYbDOXwDsS0I=
+
+Name: org/eclipse/e4/xwt/databinding/ListToArrayObservableValue$2.clas
+ s
+SHA1-Digest: hNQsgXa1M5iqyK7EvpEa/27Ilpc=
+
+Name: org/eclipse/e4/xwt/core/SetterBase.class
+SHA1-Digest: qminh5LJYvvnv/2+wKs497MahEI=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/TypedEvent.class
+SHA1-Digest: EVNHfivU2DLD7FqoTMOL6McYRNY=
+
+Name: org/eclipse/e4/xwt/animation/MatrixAnimationBase.class
+SHA1-Digest: dAglxpUix03adHXiiY9aTA0+6t0=
+
+Name: plugin.properties
+SHA1-Digest: 4VBzNupZE9HfYEOX71heJ/Gs8lY=
+
+Name: org/eclipse/e4/xwt/animation/BounceEase.class
+SHA1-Digest: dFXPPmupKvW5FwYpaFrRXOj2YQE=
+
+Name: org/eclipse/e4/xwt/internal/core/ScopeKeeper$ChangeListenerSuppo
+ rt.class
+SHA1-Digest: la6D6Xi++hx5tCJ/Hqd4uTL8eFo=
+
+Name: org/eclipse/e4/xwt/internal/databinding/menuitem/AbstractMenuIte
+ mObservableValue$1.class
+SHA1-Digest: O7B+qFod8/TZZ8OvJRKDY6g0iNo=
+
+Name: org/eclipse/e4/xwt/core/TriggerBase$AbstractChangeListener.class
+SHA1-Digest: CtFmgwxLnj+RevXL/bS+Y4QyiZM=
+
+Name: org/eclipse/e4/xwt/converters/DateToString.class
+SHA1-Digest: nznxzt3/mq6EJ1DLFZMV2evYPV0=
+
+Name: org/eclipse/e4/xwt/utils/ResourceManager$FontTool.class
+SHA1-Digest: Chl90TBOWtq6+IEIc0idcmHBgOo=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableItemEditorP
+ roperty.class
+SHA1-Digest: 1TWNm561datisImdjWa9EwPiEGo=
+
+Name: plugin.xml
+SHA1-Digest: 6F0qEVFAI1M8MnDAX6Yv8IvRF80=
+
+Name: org/eclipse/e4/xwt/core/DataTrigger$ValueChangeListener.class
+SHA1-Digest: gbg0d3G5w34B6w0PT8cUCAEkZkA=
+
+Name: org/eclipse/e4/xwt/input/CanExecuteChangedListener.class
+SHA1-Digest: SDRWLZi0TvhGz8l+FKS+lyJ8Zos=
+
+Name: org/eclipse/e4/xwt/input/ModifierKeys.class
+SHA1-Digest: KV+DCzu/0AHm5bLNORhGOKwbr+k=
+
+Name: org/eclipse/e4/xwt/animation/SingleAnimationBase.class
+SHA1-Digest: XziTSvVCmNvIyW0VO8hfhP9518Y=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/ComboBoxCellEditorMetaclass
+ .class
+SHA1-Digest: 6dIwE7U0NMVYSWYcbCty2rSR1Ao=
+
+Name: org/eclipse/e4/xwt/databinding/DataBinding.class
+SHA1-Digest: 87O5crwMOBy2bkp9Od1zHddHZzw=
+
+Name: org/eclipse/e4/xwt/converters/EnumToString.class
+SHA1-Digest: s55BA57YlPgTrBOUMds2hK7trXE=
+
+Name: org/eclipse/e4/xwt/dataproviders/ObjectDataProvider$1.class
+SHA1-Digest: LN9rEQgy7U8zjL92noCELW38Yec=
+
+Name: org/eclipse/e4/xwt/animation/BackEase.class
+SHA1-Digest: oLBFaG8HpwiJ7seZoAs5cUEtWoU=
+
+Name: org/eclipse/e4/xwt/databinding/ListToArrayObservableValue.class
+SHA1-Digest: j8gcLZGCeVwkeyhqOgn+CdGtb84=
+
+Name: org/eclipse/e4/xwt/internal/core/DynamicBinding.class
+SHA1-Digest: haL3DO/kENrqwvzaKovX/b94kU8=
+
+Name: org/eclipse/e4/xwt/annotation/UI.class
+SHA1-Digest: iIt4HYo3UhJcnDhtu2qbrUOIe7A=
+
+Name: org/eclipse/e4/xwt/databinding/BindingContext$2.class
+SHA1-Digest: Vv/jqShJ/jgWcDfqM78qh3TrKfI=
+
+Name: org/eclipse/e4/xwt/jface/XWTTitleAreaDialog$1.class
+SHA1-Digest: R0zdr4cfjHLRBYhf5fw58HayaMM=
+
+Name: org/eclipse/e4/xwt/animation/QuarticEase.class
+SHA1-Digest: HJvLcKbi/ZhxCYc6OmP/2FYZuxQ=
+
+Name: org/eclipse/e4/xwt/animation/PauseStoryboard.class
+SHA1-Digest: eKs5Zj1narGkXNwzxC7LFNvkvmc=
+
+Name: org/eclipse/e4/xwt/animation/LinearDoubleKeyFrame.class
+SHA1-Digest: ZT2GBfpMlXBQyLHF8Gth1j9QOiM=
+
+Name: org/eclipse/e4/xwt/core/Condition$CacheData.class
+SHA1-Digest: 0kfXCoWGAyt4DL83GTHeZTNOnvc=
+
+Name: org/eclipse/e4/xwt/jface/ComboBoxCellEditor.class
+SHA1-Digest: TUDbHTQpPVBs/BTxii3Wv9CCHWU=
+
+Name: org/eclipse/e4/xwt/internal/databinding/menuitem/AbstractMenuIte
+ mObservableValue.class
+SHA1-Digest: UPuMmN7AK+7aPpI8urZt24w+2Js=
+
+Name: org/eclipse/e4/xwt/animation/RepeatBehavior.class
+SHA1-Digest: kAWit+pzXG+zOwic2LeXHwcawss=
+
+Name: org/eclipse/e4/xwt/internal/core/MetaclassManager.class
+SHA1-Digest: bXwVBPWH6HPEMq4Ilj6kcatWiuk=
+
+Name: org/eclipse/e4/xwt/animation/DoubleAnimation.class
+SHA1-Digest: QQjFxNNaPQlPOlNJb2zUp2nK/QE=
+
+Name: org/eclipse/e4/xwt/animation/Storyboard.class
+SHA1-Digest: Bs8MnK4sQt1tFqQtS4TD3uKTJug=
+
+Name: org/eclipse/e4/xwt/metadata/IProperty.class
+SHA1-Digest: ovCzj33PKSypFsHFW+0g2Ybcxr4=
+
+Name: org/eclipse/e4/xwt/utils/ResourceManager$ImageTool.class
+SHA1-Digest: OcUsvu25dGSZyCAj61LfIus1jQw=
+
+Name: org/eclipse/e4/xwt/animation/ParseNumbers.class
+SHA1-Digest: tadM7adCD7bsZtCGKAxKZ1hMRI8=
+
+Name: org/eclipse/e4/xwt/internal/Activator.class
+SHA1-Digest: +2F9Iaup11zLHBWa/SkgNQGPN7I=
+
+Name: org/eclipse/e4/xwt/databinding/TypedViewerObservableValueDecorat
+ or.class
+SHA1-Digest: b0iw1HteoayzflE+YADMQJwBACo=
+
+Name: org/eclipse/e4/xwt/jface/XWTDialog.class
+SHA1-Digest: zf0fFRS0D+ysmbbPcqrJ6MJ6jNE=
+
+Name: org/eclipse/e4/xwt/animation/CircleEase.class
+SHA1-Digest: YvIevmJo9IxSarYapk9yVdEZloA=
+
+Name: org/eclipse/e4/xwt/utils/ResourceManager$ColorTool.class
+SHA1-Digest: vzg2vZ3aZ9aJ2o/ESVpkXZZLhSw=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableEditorDynam
+ icProperty$TableSelectionHandler.class
+SHA1-Digest: EIRP1Yw8Pq8CEw2hVvU6gXPaMIQ=
+
+Name: org/eclipse/e4/xwt/input/KeyGesture.class
+SHA1-Digest: ichT2Gz0z7LozIN/wWjZbSKlzNg=
+
+Name: org/eclipse/e4/xwt/databinding/IBindingContext.class
+SHA1-Digest: Uz+MyJeZ5p6xxMERi10BPQILSvE=
+
+Name: org/eclipse/e4/xwt/collection/ListSortDirection.class
+SHA1-Digest: XCfmvGYl6vFweRz8+lNGdIB62zc=
+
+Name: org/eclipse/e4/xwt/databinding/EventPropertyObservableValue.clas
+ s
+SHA1-Digest: 3byFQ4RKxbCnkFZ7QsYfLZf3K3g=
+
+Name: org/eclipse/e4/xwt/jface/DefaultListContentProvider.class
+SHA1-Digest: VKlqA6rjz2k4tB52Mge7KnBxaCo=
+
+Name: org/eclipse/e4/xwt/animation/ExponentialEase.class
+SHA1-Digest: 68m0S3IFvZTBsNEimjy59I01X2Q=
+
+Name: org/eclipse/e4/xwt/metadata/ILoadingType.class
+SHA1-Digest: 2YAXpleJJP5p5P5j6M+SZwMhd+Q=
+
+Name: org/eclipse/e4/xwt/XWTLoader$1.class
+SHA1-Digest: F4NkU4LUjLDFcMGWU9xmElHwlPo=
+
+Name: org/eclipse/e4/xwt/animation/AnimationTimeline.class
+SHA1-Digest: wK/LqEADJaqSsf7NwtYHRrCxqQA=
+
+Name: org/eclipse/e4/xwt/internal/xml/ElementManager.class
+SHA1-Digest: GaQ8WjbD0uZNdamWk1TbWHjggGM=
+
+Name: org/eclipse/e4/xwt/animation/Int64AnimationBase.class
+SHA1-Digest: A0eS074yLBr2GOcZ8oX/UF5Q1jA=
+
+Name: org/eclipse/e4/xwt/metadata/IValueLoading.class
+SHA1-Digest: tJyOsTTRZ92LK73WmDUYn5sukBY=
+
+Name: org/eclipse/e4/xwt/internal/utils/TableEditorHelper.class
+SHA1-Digest: 7iBXzGXUWsQJmqN7vcdDYSq0KdI=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableItemPropert
+ y.class
+SHA1-Digest: QhDx9xH1DDs+5igOtURZ0g45nuQ=
+
+Name: org/eclipse/e4/xwt/animation/EasingFunctionBase.class
+SHA1-Digest: spsTpfBJLWO3f7Z2oXk8XEjYh74=
+
+Name: org/eclipse/e4/xwt/jface/JFacesHelper.class
+SHA1-Digest: ohuv4NSUMGJyKBqxNqDJ6rbqXIU=
+
+Name: org/eclipse/e4/xwt/jface/JFaceInitializer.class
+SHA1-Digest: YEfM1MfeI4HY8DxwQUpkSj6N99A=
+
+Name: org/eclipse/e4/xwt/input/KeyBinding.class
+SHA1-Digest: 0eM2iZm9rxxwvLNrL5Ba0qDyp7Y=
+
+Name: org/eclipse/e4/xwt/internal/Activator$1.class
+SHA1-Digest: nTd5x7l+6Z1XTw51LibsBggS+OU=
+
+Name: org/eclipse/e4/xwt/annotation/Containment.class
+SHA1-Digest: MGlY94JX3/jYkjYGb7nkQgW9sEY=
+
+Name: org/eclipse/e4/xwt/IUIExtensionProvider.class
+SHA1-Digest: BDpuTOyKOxHj+kB0t22dUw4aCaU=
+
+Name: org/eclipse/e4/xwt/internal/core/ScopeManager.class
+SHA1-Digest: BmMRhnUdvayFFlv2QUm9xIpVf6M=
+
+Name: org/eclipse/e4/xwt/converters/ObjectToString.class
+SHA1-Digest: OACz1FsKONEtMXM5brP3BSVcboI=
+
+Name: org/eclipse/e4/xwt/converters/SetToIObservableCollection.class
+SHA1-Digest: wDZd63F2ft3Jur2yiaLqV8XSuFo=
+
+Name: org/eclipse/e4/xwt/input/RoutedCommand.class
+SHA1-Digest: J6z5avTIrQ/+1TEMbs6CUt3/IjQ=
+
+Name: org/eclipse/e4/xwt/animation/internal/ITimeline.class
+SHA1-Digest: IzHRxTb4L0LcFu98Ql8c4tddaDg=
+
+Name: org/eclipse/e4/xwt/databinding/AggregateObservableValue.class
+SHA1-Digest: GAXJ9dVda+8ZQRLob4CWzUfZRlE=
+
+Name: org/eclipse/e4/xwt/internal/utils/ObjectUtil.class
+SHA1-Digest: kApQdhiZ0pxzQNsKTBbEPdIT+OE=
+
+Name: org/eclipse/e4/xwt/animation/FloatAnimationBase.class
+SHA1-Digest: ynysoDqmQ5dbe4/rIXUqCCca9Kg=
+
+Name: org/eclipse/e4/xwt/databinding/BindingMode.class
+SHA1-Digest: iW+EGO5QS8S0qjyQOoLzb20qePg=
+
+Name: org/eclipse/e4/xwt/XWTLoader$6.class
+SHA1-Digest: pgM8R8Hov9zgawAFycshUPuKz1Q=
+
+Name: org/eclipse/e4/xwt/internal/core/DataBindingTrack.class
+SHA1-Digest: qlRR78xTaJQSzJUYMbmc4pnmZws=
+
+Name: org/eclipse/e4/xwt/databinding/ListToArrayObservableValue$1.clas
+ s
+SHA1-Digest: 1s29BlbYwsjCzONInYW0QdNAc5A=
+
+Name: org/eclipse/e4/xwt/IValidationRule.class
+SHA1-Digest: l5wpCORI3kN/I786lbmLIZOrQBM=
+
+Name: org/eclipse/e4/xwt/javabean/ResourceLoader.class
+SHA1-Digest: JQkj9SjQw+ki3VtqI6sfJLu7Zuc=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/TableEditorDynam
+ icProperty$TableUtil.class
+SHA1-Digest: 5uoCF1EUiQzksKPT28ApUyWfSTI=
+
+Name: org/eclipse/e4/xwt/IConstants$2.class
+SHA1-Digest: Lls/09PRp2+DurzwLhraQXpZJ4k=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/FieldProperty.cl
+ ass
+SHA1-Digest: RfQHc6acHvuHCchinDqk0SLQR9I=
+
+Name: org/eclipse/e4/xwt/XWTLoader$4$1.class
+SHA1-Digest: BtJC/ofnNRKIMo/ndOQE/C49Ub0=
+
+Name: org/eclipse/e4/xwt/animation/internal/TridentTimeline$1.class
+SHA1-Digest: MHi/ErczOmTu/BmLec6BzEPYHms=
+
+Name: org/eclipse/e4/xwt/internal/utils/NamespaceHelper.class
+SHA1-Digest: sPdTGeTq5pTM5eVs5ryA59/EL/o=
+
+Name: org/eclipse/e4/xwt/XWTException.class
+SHA1-Digest: cNm0onRoiPIS2tRXbZNY209deRo=
+
+Name: org/eclipse/e4/xwt/animation/ControllableStoryboardAction.class
+SHA1-Digest: A/pxik/pwkaklz3pQxtY0ToTH1Y=
+
+Name: org/eclipse/e4/xwt/core/MultiTrigger.class
+SHA1-Digest: CbV0Px2r0POsmKZLU+KMlDJpn+0=
+
+Name: org/eclipse/e4/xwt/converters/StringToKeyTime.class
+SHA1-Digest: ZVOIg1FrTHNPPTVOCWpoxI62Mtw=
+
+Name: org/eclipse/e4/xwt/ResourceDictionary.class
+SHA1-Digest: XvbmKo1+ebaAdf1zm96FSUC5b0c=
+
+Name: org/eclipse/e4/xwt/animation/RepeatBehavior$RepeatBehaviorType.c
+ lass
+SHA1-Digest: q4F2nh9htxSvB7t9RcOljFG+RF8=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/ExpandItemHeightAction.clas
+ s
+SHA1-Digest: SPjLl/40jvrYlmeH+S5yk7MyUnE=
+
+Name: org/eclipse/e4/xwt/animation/ClockState.class
+SHA1-Digest: qOsV/2hWaJh9PHpdBiWgdLe9P6I=
+
+Name: org/eclipse/e4/xwt/converters/StringToTimeSpan.class
+SHA1-Digest: x13ipXQdBvLLUAT0AYPlLEeMeoU=
+
+Name: org/eclipse/e4/xwt/converters/StringToImage.class
+SHA1-Digest: T60mHH302MxbPtTeOghuUVCI830=
+
+Name: org/eclipse/e4/xwt/internal/xml/DocumentObject.class
+SHA1-Digest: xYXtwaz82qbmVAgSSfN+uVCJ8ns=
+
+Name: org/eclipse/e4/xwt/animation/EasingMode.class
+SHA1-Digest: nxVRBpxcUiGxRFURosKBh1Caubk=
+
+Name: org/eclipse/e4/xwt/databinding/XWTObservableValue$1.class
+SHA1-Digest: aqfkXMdTZhURGcNCwhKoDUnSj8M=
+
+Name: org/eclipse/e4/xwt/converters/StringToColor.class
+SHA1-Digest: dXqRWw0BLoSJvNZ6Wl4hwLY/Izg=
+
+Name: org/eclipse/e4/xwt/IEventInvoker.class
+SHA1-Digest: kGdCWO1TP+iJfK4N8BW0NXNlPRY=
+
+Name: org/eclipse/e4/xwt/XWTMaps.class
+SHA1-Digest: b3cIWiZyzESbyI6ZQ1hcd+LA2Uo=
+
+Name: org/eclipse/e4/xwt/animation/BeginStoryboard.class
+SHA1-Digest: hfHzhBnXSFUB79GsUj/PWp5+gIQ=
+
+Name: org/eclipse/e4/xwt/animation/TimeSpan.class
+SHA1-Digest: LV+O3cFHjJnxIq7T1qBkupaZlbw=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/PropertiesConsta
+ nts.class
+SHA1-Digest: 3dsNvqCvJw9IqkZ+nKt12xLoFss=
+
+Name: org/eclipse/e4/xwt/converters/StringToRepeatBehavior.class
+SHA1-Digest: w7GHOE9xMLm1NjFE+37dbX/v34g=
+
+Name: org/eclipse/e4/xwt/animation/ElasticEase.class
+SHA1-Digest: 3jO0c1rqy+y7G0WRSm+gJ+ns8vM=
+
+Name: org/eclipse/e4/xwt/ILogger.class
+SHA1-Digest: 8YapZ3t87spD3FD3Y8g6hZQPcOo=
+
+Name: org/eclipse/e4/xwt/databinding/BindingContext$1.class
+SHA1-Digest: /OMcw7S2+p3tAJv065AjFug1wLA=
+
+Name: org/eclipse/e4/xwt/converters/StringToDuration.class
+SHA1-Digest: 3UkbN0Htb7Kdy0/yumO0wDJdqQ0=
+
+Name: org/eclipse/e4/xwt/databinding/AggregateObservableValue$1.class
+SHA1-Digest: 0nkKL0jwaJMlRxZgVITReSpMdoM=
+
+Name: org/eclipse/e4/xwt/javabean/ResourceLoader$LoadingData.class
+SHA1-Digest: 5V9xFizgVGQy6TtcLeFYnVk2Iw0=
+
+Name: org/eclipse/e4/xwt/animation/StringParser.class
+SHA1-Digest: av6Qtec/fARA+79+0v4Kkr10NHg=
+
+Name: org/eclipse/e4/xwt/animation/Duration.class
+SHA1-Digest: pMa/ZDvzXnwYpAHpNgio8Ab8zWI=
+
+Name: org/eclipse/e4/xwt/converters/IStatusToBoolean.class
+SHA1-Digest: j9EGBBdLifHM4kzQX6QZwgkd8wg=
+
+Name: org/eclipse/e4/xwt/core/EventTrigger.class
+SHA1-Digest: 0qANa0bN1NaNpebUE5z2g5FqWnY=
+
+Name: org/eclipse/e4/xwt/input/MouseAction.class
+SHA1-Digest: TgXPGmBvGu6iwqSVJYXMZsNJeDQ=
+
+Name: org/eclipse/e4/xwt/animation/ResumeStoryboard.class
+SHA1-Digest: mXmQG9Bl5QDsDwE3JvuLRT65QGg=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/DynamicBeanPrope
+ rty.class
+SHA1-Digest: vVJhh8SvCxt6eNtw8cVgJ5h0PBA=
+
+Name: org/eclipse/e4/xwt/animation/DecimalAnimationBase.class
+SHA1-Digest: P+LC0wSZYl5UsjaMdvXktQfxb+E=
+
+Name: org/eclipse/e4/xwt/IMultiValueConverter.class
+SHA1-Digest: P2BCgYp+4zLnxBJysUYrdlwLvYY=
+
+Name: org/eclipse/e4/xwt/input/CommandBinding.class
+SHA1-Digest: efwKkNs9XylPrzigmS9R9S7ur8s=
+
+Name: org/eclipse/e4/xwt/animation/OutParameter.class
+SHA1-Digest: euKTsxEm83rt5FK92PxxidYRA2Y=
+
+Name: org/eclipse/e4/xwt/IEventHandler.class
+SHA1-Digest: QAHLXQDUMHDZ3JG0oi8nGojm2sU=
+
+Name: org/eclipse/e4/xwt/javabean/metadata/properties/StyleProperty.cl
+ ass
+SHA1-Digest: tQxM+B5nfumRcSZLih6QpX3psFo=
+
